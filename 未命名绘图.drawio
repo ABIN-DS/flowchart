@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-13T08:50:48.542Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="VzJZrOgXMOWWBfEjrBFX" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-13T08:52:55.462Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="3Ipef6n9MLBFfxV7nlCt" version="21.6.2" type="github">
   <diagram name="第 1 页" id="JTP_TphxvL8e3fdHrhSc">
     <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -27,8 +27,13 @@
         <mxCell id="o_ALCuuCgBvZ6vkwsRsV-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="o_ALCuuCgBvZ6vkwsRsV-6" target="o_ALCuuCgBvZ6vkwsRsV-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="o_ALCuuCgBvZ6vkwsRsV-19" value="召回任务管理" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="o_ALCuuCgBvZ6vkwsRsV-10">
+          <mxGeometry x="0.0182" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="o_ALCuuCgBvZ6vkwsRsV-6" value="运营人员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="310" y="380" width="30" height="60" as="geometry" />
+          <mxGeometry x="290" y="380" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="o_ALCuuCgBvZ6vkwsRsV-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="o_ALCuuCgBvZ6vkwsRsV-4" target="o_ALCuuCgBvZ6vkwsRsV-2">
           <mxGeometry relative="1" as="geometry">
