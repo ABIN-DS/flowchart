@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-13T09:17:54.382Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="b0Xei0IAPlZI8sKQPR3Y" version="21.6.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-07-13T09:25:21.210Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Rb6LyYyQeKhtGy98eYXh" version="21.6.2" type="github" pages="3">
   <diagram name="系统&amp;角色&amp;UI关系图" id="JTP_TphxvL8e3fdHrhSc">
     <mxGraphModel dx="1434" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -54,7 +54,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="alJ39Goh50r3yMKwsreT" name="业务架构图">
-    <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -132,6 +132,35 @@
         </mxCell>
         <mxCell id="X7x3U-Ke94_EQplUjkP9-33" value="客服" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="750" y="267.5" width="90" height="45" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="FLLQ5omvBTyxUS7VJEYp" name="业务模块">
+    <mxGraphModel dx="1434" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CQMekr0L5ocUVeYk2xVy-1" value="业务线" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="184" y="220" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CQMekr0L5ocUVeYk2xVy-2" value="标签" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="264" y="220" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CQMekr0L5ocUVeYk2xVy-3" value="内容" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="344" y="220" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CQMekr0L5ocUVeYk2xVy-4" value="召回规则" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="304" y="170" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CQMekr0L5ocUVeYk2xVy-5" value="策略" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="184" y="170" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CQMekr0L5ocUVeYk2xVy-6" value="任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="184" y="120" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CQMekr0L5ocUVeYk2xVy-8" value="限频" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="134" y="120" width="30" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
