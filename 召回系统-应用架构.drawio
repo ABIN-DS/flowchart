@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-13T10:50:50.469Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="jqzhrWhPVpQdlOD83BXi" version="21.6.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-07-13T11:24:17.968Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="4vAV4ZY2x7a9inexGUf_" version="21.6.2" type="github" pages="3">
   <diagram name="上下游关系图" id="Kp_FxqHczAHu_dyA3q2S">
     <mxGraphModel dx="1434" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -62,7 +62,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="GYtzQeY6Kn6r9fZNLiC_" name="项目架构图-Jar依赖">
-    <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -157,6 +157,131 @@
         </mxCell>
         <mxCell id="jzs0hXhor6I0iXPaICk2-30" value="common-kafka-producer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="630" width="140" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="FUy9ikfa3b6hf9Ep48r-" name="项目架构图-分层架构">
+    <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0ZsmsinClAPjeSGUw6Kv-1" value="展示层" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="130" y="190" width="430" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZsmsinClAPjeSGUw6Kv-2" value="召回系统&lt;br&gt;（recall.yangqianguan.com)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="220" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZsmsinClAPjeSGUw6Kv-3" value="Tech admin&lt;br&gt;（tech-admin.yqg.com)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="353.5" y="220" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZsmsinClAPjeSGUw6Kv-4" value="接入层" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="130" y="310" width="610" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZsmsinClAPjeSGUw6Kv-5" value="api" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="165.25" y="340" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZsmsinClAPjeSGUw6Kv-7" value="admin" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295.25" y="340" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZsmsinClAPjeSGUw6Kv-8" value="kafka consumer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="435.25" y="340" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZsmsinClAPjeSGUw6Kv-9" value="schedule" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="585.25" y="340" width="136.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZsmsinClAPjeSGUw6Kv-10" value="核心模块" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="130" y="420" width="610" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZsmsinClAPjeSGUw6Kv-11" value="数据清理&lt;br&gt;（cleanTable）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="565" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZsmsinClAPjeSGUw6Kv-12" value="内容&lt;br&gt;（content）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="455" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZsmsinClAPjeSGUw6Kv-13" value="案件&lt;br&gt;（case）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="455" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZsmsinClAPjeSGUw6Kv-14" value="执行计划&lt;br&gt;（schedule）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="510" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZsmsinClAPjeSGUw6Kv-15" value="发送结果&lt;br&gt;（sendResult）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="510" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZsmsinClAPjeSGUw6Kv-16" value="策略&lt;br&gt;（strategy）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="455" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZsmsinClAPjeSGUw6Kv-17" value="权限" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="353.5" y="565" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZsmsinClAPjeSGUw6Kv-18" value="黑名单&lt;br&gt;（blacklist）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="510" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZsmsinClAPjeSGUw6Kv-19" value="案件通知&lt;br&gt;（alert）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="565" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZsmsinClAPjeSGUw6Kv-20" value="限频&lt;br&gt;（limit）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="510" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZsmsinClAPjeSGUw6Kv-21" value="标签&lt;br&gt;（casetag）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="455" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZsmsinClAPjeSGUw6Kv-22" value="支撑组件" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="130" y="640" width="610" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZsmsinClAPjeSGUw6Kv-23" value="日志&lt;br&gt;（log）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="575" y="670" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZsmsinClAPjeSGUw6Kv-24" value="监控&lt;br&gt;（monitor）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="670" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZsmsinClAPjeSGUw6Kv-26" value="模型&lt;br&gt;（model）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="670" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZsmsinClAPjeSGUw6Kv-27" value="common&lt;br&gt;（constant/enums/config/properties/utils）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="730" width="500" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZsmsinClAPjeSGUw6Kv-30" value="依赖client&lt;br&gt;（client）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="670" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZsmsinClAPjeSGUw6Kv-31" value="SDK" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="570" y="190" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZsmsinClAPjeSGUw6Kv-32" value="feign client声明" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="220" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZsmsinClAPjeSGUw6Kv-33" value="数据层" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="130" y="810" width="780" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZsmsinClAPjeSGUw6Kv-34" value="redis&lt;br&gt;(cluster)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="165.25" y="840" width="124.75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZsmsinClAPjeSGUw6Kv-35" value="mysql&lt;br&gt;(recall-prod)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="840" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZsmsinClAPjeSGUw6Kv-36" value="kafka" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="840" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZsmsinClAPjeSGUw6Kv-37" value="influxdb&lt;br&gt;(yqg_prod)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="840" width="136.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZsmsinClAPjeSGUw6Kv-38" value="监控&amp;amp;报警" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="770" y="310" width="140" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZsmsinClAPjeSGUw6Kv-39" value="grafna" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="785" y="390" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZsmsinClAPjeSGUw6Kv-40" value="n9e" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="785" y="480" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZsmsinClAPjeSGUw6Kv-41" value="kibana" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="785" y="564.5" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZsmsinClAPjeSGUw6Kv-42" value="tech报警平台" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="785" y="660" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZsmsinClAPjeSGUw6Kv-43" value="elasticsearch" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="840" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
