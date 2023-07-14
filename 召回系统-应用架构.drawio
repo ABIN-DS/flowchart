@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-14T09:34:46.269Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ZVdI-GbmGxwZNuVdrd6P" version="21.6.2" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-07-14T09:35:43.823Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="yPC5p7SkVYHGE7zrMelF" version="21.6.2" type="github" pages="8">
   <diagram name="上下游关系图" id="Kp_FxqHczAHu_dyA3q2S">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -860,7 +860,7 @@
         <mxCell id="Ds1kyNY2h82O1ROmPJOk-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ds1kyNY2h82O1ROmPJOk-37" target="Ds1kyNY2h82O1ROmPJOk-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ds1kyNY2h82O1ROmPJOk-37" value="构造VO对象" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Ds1kyNY2h82O1ROmPJOk-37" value="构造VO对象&lt;br&gt;（status等）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="970" y="1450" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ds1kyNY2h82O1ROmPJOk-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ds1kyNY2h82O1ROmPJOk-38" target="Ds1kyNY2h82O1ROmPJOk-40">
