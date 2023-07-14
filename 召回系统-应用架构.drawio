@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-14T07:37:31.132Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="6M_np9F-uLLF6NzjYIo_" version="21.6.2" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-07-14T07:53:02.112Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="sOJ_J5v36xOSAZP0C83r" version="21.6.2" type="github" pages="7">
   <diagram name="上下游关系图" id="Kp_FxqHczAHu_dyA3q2S">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -633,25 +633,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VrgjMZ9NcUn4X0ILdbsg-1" value="start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="314" y="40" width="100" height="60" as="geometry" />
+          <mxGeometry x="300" y="40" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VrgjMZ9NcUn4X0ILdbsg-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VrgjMZ9NcUn4X0ILdbsg-2" target="VrgjMZ9NcUn4X0ILdbsg-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VrgjMZ9NcUn4X0ILdbsg-2" value="参数检查&lt;br&gt;thirdPartyId not null" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="304" y="180" width="120" height="60" as="geometry" />
+          <mxGeometry x="290" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VrgjMZ9NcUn4X0ILdbsg-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VrgjMZ9NcUn4X0ILdbsg-4" target="VrgjMZ9NcUn4X0ILdbsg-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VrgjMZ9NcUn4X0ILdbsg-4" value="获取CaseTag" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="304" y="320" width="120" height="60" as="geometry" />
+          <mxGeometry x="290" y="300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VrgjMZ9NcUn4X0ILdbsg-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VrgjMZ9NcUn4X0ILdbsg-6" target="VrgjMZ9NcUn4X0ILdbsg-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VrgjMZ9NcUn4X0ILdbsg-6" value="查询RecallCase记录&lt;br&gt;（thirdPartyId/caseStatus/caseTagId）" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="304" y="585" width="120" height="60" as="geometry" />
+          <mxGeometry x="290" y="525" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VrgjMZ9NcUn4X0ILdbsg-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VrgjMZ9NcUn4X0ILdbsg-8" target="VrgjMZ9NcUn4X0ILdbsg-10">
           <mxGeometry relative="1" as="geometry" />
@@ -661,17 +661,81 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="VrgjMZ9NcUn4X0ILdbsg-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VrgjMZ9NcUn4X0ILdbsg-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="246" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="VrgjMZ9NcUn4X0ILdbsg-8" value="是否存在记录" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="324" y="715" width="80" height="80" as="geometry" />
+          <mxGeometry x="306" y="655" width="84" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VrgjMZ9NcUn4X0ILdbsg-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VrgjMZ9NcUn4X0ILdbsg-10" target="VrgjMZ9NcUn4X0ILdbsg-16">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VrgjMZ9NcUn4X0ILdbsg-10" value="按id对RecallCaseRecord加锁" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="440" y="825" width="120" height="60" as="geometry" />
+          <mxGeometry x="426" y="765" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VrgjMZ9NcUn4X0ILdbsg-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VrgjMZ9NcUn4X0ILdbsg-13" target="VrgjMZ9NcUn4X0ILdbsg-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VrgjMZ9NcUn4X0ILdbsg-13" value="开启事务" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="304" y="450" width="120" height="60" as="geometry" />
+          <mxGeometry x="290" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VrgjMZ9NcUn4X0ILdbsg-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VrgjMZ9NcUn4X0ILdbsg-16" target="VrgjMZ9NcUn4X0ILdbsg-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VrgjMZ9NcUn4X0ILdbsg-16" value="清理外呼相关schduler缓存" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="426" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VrgjMZ9NcUn4X0ILdbsg-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VrgjMZ9NcUn4X0ILdbsg-18" target="VrgjMZ9NcUn4X0ILdbsg-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VrgjMZ9NcUn4X0ILdbsg-18" value="更新Case状态为Complete" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="426" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VrgjMZ9NcUn4X0ILdbsg-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VrgjMZ9NcUn4X0ILdbsg-22" target="VrgjMZ9NcUn4X0ILdbsg-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VrgjMZ9NcUn4X0ILdbsg-26" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VrgjMZ9NcUn4X0ILdbsg-25">
+          <mxGeometry x="-0.0784" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VrgjMZ9NcUn4X0ILdbsg-22" value="是否业务关闭" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="446" y="1100" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VrgjMZ9NcUn4X0ILdbsg-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VrgjMZ9NcUn4X0ILdbsg-24" target="VrgjMZ9NcUn4X0ILdbsg-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VrgjMZ9NcUn4X0ILdbsg-24" value="cache更新&lt;br&gt;增加平滑召回计数&lt;br&gt;业务完成case" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="426" y="1240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VrgjMZ9NcUn4X0ILdbsg-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VrgjMZ9NcUn4X0ILdbsg-27" target="VrgjMZ9NcUn4X0ILdbsg-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VrgjMZ9NcUn4X0ILdbsg-27" value="更新schedule状态&lt;br&gt;（caseId/version/status）" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="426" y="1350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VrgjMZ9NcUn4X0ILdbsg-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VrgjMZ9NcUn4X0ILdbsg-29" target="VrgjMZ9NcUn4X0ILdbsg-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VrgjMZ9NcUn4X0ILdbsg-29" value="更新snapshot状态&lt;br&gt;（snapshotIds）" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="426" y="1460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VrgjMZ9NcUn4X0ILdbsg-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="VrgjMZ9NcUn4X0ILdbsg-31" target="VrgjMZ9NcUn4X0ILdbsg-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VrgjMZ9NcUn4X0ILdbsg-31" value="InfluxDb打点" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="426" y="1580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VrgjMZ9NcUn4X0ILdbsg-33" value="start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1700" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VrgjMZ9NcUn4X0ILdbsg-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VrgjMZ9NcUn4X0ILdbsg-34" target="VrgjMZ9NcUn4X0ILdbsg-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VrgjMZ9NcUn4X0ILdbsg-34" value="增加关案缓存" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="190" y="765" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
