@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-14T03:03:14.330Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="akizDf-nhG04ealmY53L" version="21.6.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-07-14T03:21:10.255Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="fAkgMjF3GqaeoCERFsqs" version="21.6.2" type="github" pages="4">
   <diagram name="上下游关系图" id="Kp_FxqHczAHu_dyA3q2S">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -318,6 +318,9 @@
         <mxCell id="BrnEyd5vvwkChQXo1ZDK-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BrnEyd5vvwkChQXo1ZDK-8" target="BrnEyd5vvwkChQXo1ZDK-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="BrnEyd5vvwkChQXo1ZDK-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="BrnEyd5vvwkChQXo1ZDK-8" target="BrnEyd5vvwkChQXo1ZDK-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="BrnEyd5vvwkChQXo1ZDK-8" value="异步并行处理&lt;br&gt;每个批次" style="whiteSpace=wrap;html=1;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="240" y="660" width="120" height="60" as="geometry" />
         </mxCell>
@@ -365,6 +368,24 @@
         </mxCell>
         <mxCell id="BrnEyd5vvwkChQXo1ZDK-20" value="是否存在" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="260" y="1020" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BrnEyd5vvwkChQXo1ZDK-29" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="485" width="440" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="BrnEyd5vvwkChQXo1ZDK-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BrnEyd5vvwkChQXo1ZDK-31" target="BrnEyd5vvwkChQXo1ZDK-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BrnEyd5vvwkChQXo1ZDK-31" value="通过filter计算&lt;br&gt;CaseBufferStatus" style="whiteSpace=wrap;html=1;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BrnEyd5vvwkChQXo1ZDK-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BrnEyd5vvwkChQXo1ZDK-32" target="BrnEyd5vvwkChQXo1ZDK-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BrnEyd5vvwkChQXo1ZDK-32" value="是否Complete" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="560" y="640" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BrnEyd5vvwkChQXo1ZDK-34" value="DWLog" style="whiteSpace=wrap;html=1;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="780" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
