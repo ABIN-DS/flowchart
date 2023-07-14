@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-14T09:35:43.823Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="yPC5p7SkVYHGE7zrMelF" version="21.6.2" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-07-14T09:59:54.590Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="6_xK_9JleK2yEdlkMIWZ" version="21.6.2" type="github" pages="9">
   <diagram name="上下游关系图" id="Kp_FxqHczAHu_dyA3q2S">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -741,7 +741,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="nXaEoATgZWRN_4dngLCE" name="流程图-StageInitStatusTransition">
-    <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="954" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -889,6 +889,83 @@
         </mxCell>
         <mxCell id="Ds1kyNY2h82O1ROmPJOk-46" value="过期数据打点" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="970" y="1940" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="fzx6YR1WaMfZ6U67Zucu" name="流程图-StageProcessingStatusTransition">
+    <mxGraphModel dx="954" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OYNuwtxsy5LoWRPOghL2-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9KGxsNjb-yBhGiREOu6B-1" target="OYNuwtxsy5LoWRPOghL2-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9KGxsNjb-yBhGiREOu6B-1" value="start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="350" y="40" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OYNuwtxsy5LoWRPOghL2-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OYNuwtxsy5LoWRPOghL2-1" target="OYNuwtxsy5LoWRPOghL2-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OYNuwtxsy5LoWRPOghL2-1" value="计算电话HashCode&lt;br&gt;待处理编码列表" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="340" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OYNuwtxsy5LoWRPOghL2-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OYNuwtxsy5LoWRPOghL2-3" target="OYNuwtxsy5LoWRPOghL2-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OYNuwtxsy5LoWRPOghL2-3" value="获取Case列表&lt;br&gt;BusinessType-&amp;gt;CaseTag-&amp;gt;Stage-&amp;gt;CaseList&lt;br&gt;(processing)" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="340" y="290" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OYNuwtxsy5LoWRPOghL2-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OYNuwtxsy5LoWRPOghL2-5" target="OYNuwtxsy5LoWRPOghL2-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OYNuwtxsy5LoWRPOghL2-5" value="通过caseTag和index获取下一阶段Stage" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="340" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OYNuwtxsy5LoWRPOghL2-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OYNuwtxsy5LoWRPOghL2-9" target="OYNuwtxsy5LoWRPOghL2-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OYNuwtxsy5LoWRPOghL2-13" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OYNuwtxsy5LoWRPOghL2-12">
+          <mxGeometry x="-0.5667" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OYNuwtxsy5LoWRPOghL2-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OYNuwtxsy5LoWRPOghL2-9" target="OYNuwtxsy5LoWRPOghL2-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OYNuwtxsy5LoWRPOghL2-16" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OYNuwtxsy5LoWRPOghL2-15">
+          <mxGeometry x="-0.6" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OYNuwtxsy5LoWRPOghL2-9" value="是否存在next stage" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="350" y="550" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="OYNuwtxsy5LoWRPOghL2-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="OYNuwtxsy5LoWRPOghL2-11" target="OYNuwtxsy5LoWRPOghL2-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="890" />
+              <mxPoint x="400" y="890" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OYNuwtxsy5LoWRPOghL2-11" value="执行“案件完成”逻辑" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="460" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OYNuwtxsy5LoWRPOghL2-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OYNuwtxsy5LoWRPOghL2-14" target="OYNuwtxsy5LoWRPOghL2-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OYNuwtxsy5LoWRPOghL2-14" value="更新Case状态为INIT" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="210" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OYNuwtxsy5LoWRPOghL2-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="OYNuwtxsy5LoWRPOghL2-17" target="OYNuwtxsy5LoWRPOghL2-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OYNuwtxsy5LoWRPOghL2-17" value="InfluxDB打点" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="210" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OYNuwtxsy5LoWRPOghL2-19" value="end" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="350" y="920" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
