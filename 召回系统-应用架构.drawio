@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-14T06:47:42.025Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="egiYEAAQ7ZN-_XRcyWuj" version="21.6.2" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-07-14T07:37:31.132Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="6M_np9F-uLLF6NzjYIo_" version="21.6.2" type="github" pages="7">
   <diagram name="上下游关系图" id="Kp_FxqHczAHu_dyA3q2S">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -625,10 +625,54 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Lc88bYv949mjP-PHrQNP" name="流程图-/case/complete">
-    <mxGraphModel dx="954" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1004" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VrgjMZ9NcUn4X0ILdbsg-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VrgjMZ9NcUn4X0ILdbsg-1" target="VrgjMZ9NcUn4X0ILdbsg-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VrgjMZ9NcUn4X0ILdbsg-1" value="start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="314" y="40" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VrgjMZ9NcUn4X0ILdbsg-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VrgjMZ9NcUn4X0ILdbsg-2" target="VrgjMZ9NcUn4X0ILdbsg-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VrgjMZ9NcUn4X0ILdbsg-2" value="参数检查&lt;br&gt;thirdPartyId not null" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="304" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VrgjMZ9NcUn4X0ILdbsg-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VrgjMZ9NcUn4X0ILdbsg-4" target="VrgjMZ9NcUn4X0ILdbsg-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VrgjMZ9NcUn4X0ILdbsg-4" value="获取CaseTag" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="304" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VrgjMZ9NcUn4X0ILdbsg-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VrgjMZ9NcUn4X0ILdbsg-6" target="VrgjMZ9NcUn4X0ILdbsg-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VrgjMZ9NcUn4X0ILdbsg-6" value="查询RecallCase记录&lt;br&gt;（thirdPartyId/caseStatus/caseTagId）" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="304" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VrgjMZ9NcUn4X0ILdbsg-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VrgjMZ9NcUn4X0ILdbsg-8" target="VrgjMZ9NcUn4X0ILdbsg-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VrgjMZ9NcUn4X0ILdbsg-12" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VrgjMZ9NcUn4X0ILdbsg-11">
+          <mxGeometry x="-0.214" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VrgjMZ9NcUn4X0ILdbsg-8" value="是否存在记录" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="324" y="715" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VrgjMZ9NcUn4X0ILdbsg-10" value="按id对RecallCaseRecord加锁" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="440" y="825" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VrgjMZ9NcUn4X0ILdbsg-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VrgjMZ9NcUn4X0ILdbsg-13" target="VrgjMZ9NcUn4X0ILdbsg-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VrgjMZ9NcUn4X0ILdbsg-13" value="开启事务" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="304" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
