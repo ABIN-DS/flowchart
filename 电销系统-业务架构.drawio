@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-17T11:56:22.403Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="WLrzEaK9JTiQk4EgXaWQ" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-17T11:56:36.745Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="LczOF7oDHwUdDwmptEZ6" version="21.6.2" type="github" pages="2">
   <diagram name="系统&amp;角色&amp;UI关系图" id="mD8ahaFPo7a6ZMi-6454">
     <mxGraphModel dx="1194" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -57,6 +57,14 @@
         <mxCell id="OPBe-N-EvtYs_Qi_Lx4d-18" value="短信" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.mail;" vertex="1" parent="1">
           <mxGeometry x="510" y="130" width="60" height="30" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="JhhTM-V9fXlrGPWPaFHN" name="业务模块">
+    <mxGraphModel dx="1194" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
