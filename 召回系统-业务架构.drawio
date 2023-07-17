@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-17T09:08:30.983Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="qB03JUPHcqfU11bsMoHa" version="21.6.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-07-17T10:35:26.308Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="LJEkrYDRMlDyl0tjUwbz" version="21.6.2" type="github" pages="4">
   <diagram name="系统&amp;角色&amp;UI关系图" id="JTP_TphxvL8e3fdHrhSc">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -224,7 +224,7 @@
         <mxCell id="NIRZOvgb8sgR1gq8tcIm-19" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="NIRZOvgb8sgR1gq8tcIm-3" target="NIRZOvgb8sgR1gq8tcIm-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NIRZOvgb8sgR1gq8tcIm-21" value="非外呼案件&amp;amp;&amp;amp;content所需keys缺失&lt;br&gt;&lt;br&gt;外呼案件&amp;amp;&amp;amp;content所需的keys都存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NIRZOvgb8sgR1gq8tcIm-19">
+        <mxCell id="NIRZOvgb8sgR1gq8tcIm-21" value="未获取到数据，跳过sch，进入下一sch&lt;br&gt;获取到部分数据，非外呼，进入下一sch&lt;br&gt;获取到部分数据，外呼&lt;br&gt;获取到全部数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NIRZOvgb8sgR1gq8tcIm-19">
           <mxGeometry x="0.3526" y="1" relative="1" as="geometry">
             <mxPoint x="46" y="24" as="offset" />
           </mxGeometry>
@@ -244,9 +244,9 @@
         <mxCell id="NIRZOvgb8sgR1gq8tcIm-23" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="NIRZOvgb8sgR1gq8tcIm-6" target="NIRZOvgb8sgR1gq8tcIm-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NIRZOvgb8sgR1gq8tcIm-25" value="!SendResultType.SEND_SUCCESS &amp;amp;&amp;amp; !SEND_FAILED" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NIRZOvgb8sgR1gq8tcIm-23">
+        <mxCell id="NIRZOvgb8sgR1gq8tcIm-25" value="只要结果send result是终态" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NIRZOvgb8sgR1gq8tcIm-23">
           <mxGeometry x="-0.0942" y="-2" relative="1" as="geometry">
-            <mxPoint x="112" as="offset" />
+            <mxPoint x="32" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NIRZOvgb8sgR1gq8tcIm-6" value="WAIT(S)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
