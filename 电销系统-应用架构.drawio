@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-18T06:56:30.419Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="14LgfhFIpEEK5lKZeaDV" version="21.6.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-07-18T07:37:25.359Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ZqpquqNV_LTPhBpBzkEV" version="21.6.2" type="github" pages="3">
   <diagram name="上下游关系" id="0u5cvSU8Zm6bevSxH2Na">
     <mxGraphModel dx="1194" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -211,38 +211,14 @@
         <mxCell id="eIdXT0hR1Es6USB54STz-9" value="核心模块" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="120" y="270" width="610" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="eIdXT0hR1Es6USB54STz-10" value="数据清理&lt;br&gt;（cleanTable）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1270" y="405" width="150" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="eIdXT0hR1Es6USB54STz-11" value="内容&lt;br&gt;（content）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1310" y="295" width="110" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="eIdXT0hR1Es6USB54STz-12" value="案件&lt;br&gt;（case）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="940" y="270" width="110" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="eIdXT0hR1Es6USB54STz-13" value="执行计划&lt;br&gt;（schedule）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="920" y="350" width="110" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="eIdXT0hR1Es6USB54STz-14" value="发送结果&lt;br&gt;（sendResult）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="350" width="110" height="40" as="geometry" />
+          <mxGeometry x="150" y="350" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eIdXT0hR1Es6USB54STz-15" value="数据同步&lt;br&gt;（binlog）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="295" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="eIdXT0hR1Es6USB54STz-16" value="权限" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1093.5" y="405" width="160" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="eIdXT0hR1Es6USB54STz-17" value="黑名单&lt;br&gt;（blacklist）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1310" y="350" width="110" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="eIdXT0hR1Es6USB54STz-18" value="案件通知&lt;br&gt;（alert）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="920" y="405" width="160" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="eIdXT0hR1Es6USB54STz-19" value="限频&lt;br&gt;（limit）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1180" y="350" width="110" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="eIdXT0hR1Es6USB54STz-20" value="标签&lt;br&gt;（casetag）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1180" y="295" width="110" height="40" as="geometry" />
+          <mxGeometry x="270" y="350" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eIdXT0hR1Es6USB54STz-21" value="支撑组件" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="120" y="490" width="610" height="150" as="geometry" />
@@ -274,7 +250,7 @@
         <mxCell id="eIdXT0hR1Es6USB54STz-30" value="redis&lt;br&gt;(cluster)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="155.25" y="690" width="124.75" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="eIdXT0hR1Es6USB54STz-31" value="mysql&lt;br&gt;(recall-prod)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eIdXT0hR1Es6USB54STz-31" value="mysql&lt;br&gt;(call-prod)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="290" y="690" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eIdXT0hR1Es6USB54STz-32" value="kafka" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -309,6 +285,18 @@
         </mxCell>
         <mxCell id="eIdXT0hR1Es6USB54STz-42" value="策略&lt;br&gt;（strategy）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="295" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eIdXT0hR1Es6USB54STz-43" value="分案&lt;br&gt;（assign）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="350" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eIdXT0hR1Es6USB54STz-44" value="优惠券&lt;br&gt;（coupon）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="350" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eIdXT0hR1Es6USB54STz-45" value="权限&lt;br&gt;（privilege）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="410" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eIdXT0hR1Es6USB54STz-46" value="机构&lt;br&gt;（area）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="410" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
