@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-18T08:49:09.731Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="CgIyEz5cugJ507V_w87I" version="21.6.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-07-18T10:19:32.673Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="EnUjUkWBuBnzInn7blBi" version="21.6.2" type="github" pages="3">
   <diagram name="上下游关系" id="0u5cvSU8Zm6bevSxH2Na">
     <mxGraphModel dx="1194" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -180,7 +180,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QPQwvXWcx02KQPP3Kqrd" name="分层架构">
-    <mxGraphModel dx="1434" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1194" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -283,9 +283,6 @@
         <mxCell id="eIdXT0hR1Es6USB54STz-41" value="质检&lt;br&gt;（quality）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="295" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="eIdXT0hR1Es6USB54STz-42" value="策略&lt;br&gt;（strategy）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="295" width="110" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="eIdXT0hR1Es6USB54STz-43" value="分案&lt;br&gt;（assign）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="350" width="110" height="40" as="geometry" />
         </mxCell>
@@ -297,6 +294,12 @@
         </mxCell>
         <mxCell id="eIdXT0hR1Es6USB54STz-46" value="机构&lt;br&gt;（area）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="410" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eIdXT0hR1Es6USB54STz-47" value="消息中心&lt;br&gt;（notification）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="295" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eIdXT0hR1Es6USB54STz-48" value="呼叫中心&lt;br&gt;（callcenter）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="410" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
