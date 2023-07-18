@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-18T11:06:35.235Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="QVE4c5kj1wi_R2dnhM5f" version="21.6.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-07-18T11:08:34.155Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="bIZBxttbQkPcpsUufjcy" version="21.6.2" type="github" pages="3">
   <diagram name="上下游关系" id="0u5cvSU8Zm6bevSxH2Na">
     <mxGraphModel dx="1194" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -224,19 +224,19 @@
           <mxGeometry x="120" y="490" width="610" height="150" as="geometry" />
         </mxCell>
         <mxCell id="eIdXT0hR1Es6USB54STz-22" value="操作日志&lt;br&gt;（log）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="565" y="520" width="110" height="40" as="geometry" />
+          <mxGeometry x="510" y="520" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eIdXT0hR1Es6USB54STz-23" value="监控&lt;br&gt;（monitor）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="435" y="520" width="110" height="40" as="geometry" />
+          <mxGeometry x="390" y="520" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eIdXT0hR1Es6USB54STz-24" value="模型&lt;br&gt;（model）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="175" y="520" width="110" height="40" as="geometry" />
+          <mxGeometry x="150" y="520" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eIdXT0hR1Es6USB54STz-25" value="common&lt;br&gt;（constant/enums/config/properties/utils/intercept）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="175" y="580" width="500" height="40" as="geometry" />
+          <mxGeometry x="150" y="580" width="560" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eIdXT0hR1Es6USB54STz-26" value="依赖client&lt;br&gt;（client）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="305" y="520" width="110" height="40" as="geometry" />
+          <mxGeometry x="270" y="520" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eIdXT0hR1Es6USB54STz-27" value="SDK" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="560" y="40" width="170" height="100" as="geometry" />
@@ -300,6 +300,9 @@
         </mxCell>
         <mxCell id="eIdXT0hR1Es6USB54STz-48" value="呼叫中心&lt;br&gt;（callcenter）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="425.25" y="410" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eIdXT0hR1Es6USB54STz-49" value="es操作&lt;br&gt;（es）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="520" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
