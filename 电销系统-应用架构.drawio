@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-18T06:06:34.723Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="tPn7pENtVr7h41sogYQ-" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-18T06:21:30.629Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="6ljwDlF93gVCxBl2KQxU" version="21.6.2" type="github" pages="2">
   <diagram name="上下游关系" id="0u5cvSU8Zm6bevSxH2Na">
     <mxGraphModel dx="1194" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -42,6 +42,139 @@
         </mxCell>
         <mxCell id="yTazdzx270voAxt0stjR-18" value="现金借款&lt;br&gt;（cash-loan-service&lt;span style=&quot;background-color: initial;&quot;&gt;）&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="540" width="120" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="fX3X4zKgBinFdHV1UOU8" name="Jar依赖关系">
+    <mxGraphModel dx="1194" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LCxUd-Pa0IKPnbhUzkeO-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="260" width="920" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="LCxUd-Pa0IKPnbhUzkeO-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LCxUd-Pa0IKPnbhUzkeO-4" target="LCxUd-Pa0IKPnbhUzkeO-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LCxUd-Pa0IKPnbhUzkeO-3" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LCxUd-Pa0IKPnbhUzkeO-4" target="LCxUd-Pa0IKPnbhUzkeO-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LCxUd-Pa0IKPnbhUzkeO-4" value="call-admin" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="60" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LCxUd-Pa0IKPnbhUzkeO-5" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LCxUd-Pa0IKPnbhUzkeO-6" target="LCxUd-Pa0IKPnbhUzkeO-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LCxUd-Pa0IKPnbhUzkeO-31" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.585;entryY=-0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LCxUd-Pa0IKPnbhUzkeO-6" target="LCxUd-Pa0IKPnbhUzkeO-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LCxUd-Pa0IKPnbhUzkeO-33" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LCxUd-Pa0IKPnbhUzkeO-34" target="LCxUd-Pa0IKPnbhUzkeO-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LCxUd-Pa0IKPnbhUzkeO-6" value="call-api" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="60" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LCxUd-Pa0IKPnbhUzkeO-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LCxUd-Pa0IKPnbhUzkeO-8" target="LCxUd-Pa0IKPnbhUzkeO-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LCxUd-Pa0IKPnbhUzkeO-38" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LCxUd-Pa0IKPnbhUzkeO-8" target="LCxUd-Pa0IKPnbhUzkeO-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LCxUd-Pa0IKPnbhUzkeO-8" value="call-schedule" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="60" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LCxUd-Pa0IKPnbhUzkeO-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LCxUd-Pa0IKPnbhUzkeO-10" target="LCxUd-Pa0IKPnbhUzkeO-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LCxUd-Pa0IKPnbhUzkeO-40" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LCxUd-Pa0IKPnbhUzkeO-10" target="LCxUd-Pa0IKPnbhUzkeO-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LCxUd-Pa0IKPnbhUzkeO-10" value="call-kafka consumer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="60" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LCxUd-Pa0IKPnbhUzkeO-11" value="common-spring-util" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="180" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LCxUd-Pa0IKPnbhUzkeO-12" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LCxUd-Pa0IKPnbhUzkeO-13" target="LCxUd-Pa0IKPnbhUzkeO-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LCxUd-Pa0IKPnbhUzkeO-13" value="call-core" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="374" y="180" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LCxUd-Pa0IKPnbhUzkeO-14" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LCxUd-Pa0IKPnbhUzkeO-15" target="LCxUd-Pa0IKPnbhUzkeO-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LCxUd-Pa0IKPnbhUzkeO-36" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LCxUd-Pa0IKPnbhUzkeO-15" target="LCxUd-Pa0IKPnbhUzkeO-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LCxUd-Pa0IKPnbhUzkeO-15" value="call-common" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="400" width="134" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LCxUd-Pa0IKPnbhUzkeO-16" value="common-util" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="490" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LCxUd-Pa0IKPnbhUzkeO-19" value="notification-client-spring" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="280" width="126" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LCxUd-Pa0IKPnbhUzkeO-20" value="cache-client" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LCxUd-Pa0IKPnbhUzkeO-23" value="config-starter-spring" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="234" y="340" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LCxUd-Pa0IKPnbhUzkeO-25" value="infra-basic-starter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="400" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LCxUd-Pa0IKPnbhUzkeO-26" value="infra-basic-cloud-archaius" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="400" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LCxUd-Pa0IKPnbhUzkeO-27" value="infra-basic-cloud-hystrix" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="400" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LCxUd-Pa0IKPnbhUzkeO-29" value="sql-interceptor5" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="400" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LCxUd-Pa0IKPnbhUzkeO-30" value="common-kafka-producer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="400" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LCxUd-Pa0IKPnbhUzkeO-32" value="infra-basic-cloud-client-builder" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="180" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LCxUd-Pa0IKPnbhUzkeO-34" value="call-client-spring" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="60" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LCxUd-Pa0IKPnbhUzkeO-35" value="common-spring-util" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="490" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LCxUd-Pa0IKPnbhUzkeO-37" value="executor-spring-starter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="180" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LCxUd-Pa0IKPnbhUzkeO-39" value="common-kafka-consumer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="180" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LCxUd-Pa0IKPnbhUzkeO-41" value="callcenter-client-service-mesh" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="280" width="126" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LCxUd-Pa0IKPnbhUzkeO-42" value="cash-loan-service-client" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="280" width="126" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LCxUd-Pa0IKPnbhUzkeO-43" value="config-properties" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="340" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LCxUd-Pa0IKPnbhUzkeO-44" value="recall-client-spring" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="562" y="280" width="126" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LCxUd-Pa0IKPnbhUzkeO-45" value="quality-client" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="280" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LCxUd-Pa0IKPnbhUzkeO-46" value="tracing-starter-spring" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="340" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LCxUd-Pa0IKPnbhUzkeO-47" value="braavos-client-spring" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="280" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
