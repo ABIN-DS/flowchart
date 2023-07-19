@@ -1,9 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2023-07-18T11:31:16.329Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="C8-Oq3zb8BQNAnkhGj6Z" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-19T03:25:35.421Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="xNQF2lPJUIGEoY8mUyHU" version="21.6.2" type="github">
   <diagram name="/api/call/case/createCase" id="pLQk5CyAClHfIRqmhlo2">
     <mxGraphModel dx="1194" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="LZJOLQ2CRIo_n_McOpZt-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LZJOLQ2CRIo_n_McOpZt-1" target="LZJOLQ2CRIo_n_McOpZt-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LZJOLQ2CRIo_n_McOpZt-1" value="start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="314" y="40" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZJOLQ2CRIo_n_McOpZt-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LZJOLQ2CRIo_n_McOpZt-2" target="LZJOLQ2CRIo_n_McOpZt-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LZJOLQ2CRIo_n_McOpZt-2" value="检查并构造CallCaseVO" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="304" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZJOLQ2CRIo_n_McOpZt-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LZJOLQ2CRIo_n_McOpZt-4" target="LZJOLQ2CRIo_n_McOpZt-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LZJOLQ2CRIo_n_McOpZt-4" value="获取已存在的case&lt;br&gt;（business/mobile/csetype/tag/status）" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="304" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZJOLQ2CRIo_n_McOpZt-14" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LZJOLQ2CRIo_n_McOpZt-6" target="LZJOLQ2CRIo_n_McOpZt-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="364" y="580" />
+              <mxPoint x="364" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZJOLQ2CRIo_n_McOpZt-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LZJOLQ2CRIo_n_McOpZt-6" target="LZJOLQ2CRIo_n_McOpZt-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LZJOLQ2CRIo_n_McOpZt-21" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LZJOLQ2CRIo_n_McOpZt-20">
+          <mxGeometry x="-0.2894" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZJOLQ2CRIo_n_McOpZt-6" value="是否存在" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="324" y="450" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LZJOLQ2CRIo_n_McOpZt-10" value="end" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="314" y="620" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZJOLQ2CRIo_n_McOpZt-19" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="510" y="540" width="386" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="LZJOLQ2CRIo_n_McOpZt-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LZJOLQ2CRIo_n_McOpZt-13" target="LZJOLQ2CRIo_n_McOpZt-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LZJOLQ2CRIo_n_McOpZt-13" value="CallCase插入记录" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="540" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZJOLQ2CRIo_n_McOpZt-22" value="查询tagConfig并插入caseTag记录" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="540" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
