@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-20T07:58:14.313Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="A4muKgDyZziju62VmEEk" version="21.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-20T08:08:10.654Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="eP9JV83h1t13Nm3QH4wm" version="21.6.3" type="github">
   <diagram name="第 1 页" id="yUdO4xcYojDsIHdRHsY_">
     <mxGraphModel dx="1194" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -178,7 +178,7 @@
         <mxCell id="k25ElWPyXL3KTAe7HJmq-36" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="k25ElWPyXL3KTAe7HJmq-11" target="k25ElWPyXL3KTAe7HJmq-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="k25ElWPyXL3KTAe7HJmq-37" value="1:N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="k25ElWPyXL3KTAe7HJmq-36">
+        <mxCell id="k25ElWPyXL3KTAe7HJmq-37" value="1:1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="k25ElWPyXL3KTAe7HJmq-36">
           <mxGeometry x="-0.1296" y="-1" relative="1" as="geometry">
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
@@ -294,8 +294,8 @@
         <mxCell id="k25ElWPyXL3KTAe7HJmq-28" value="case_tag_sms" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="830" y="40" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="k25ElWPyXL3KTAe7HJmq-33" value="&lt;h1&gt;疑问点&lt;/h1&gt;&lt;p&gt;1. case_tag怎么和case_tag_config关联起来？&lt;/p&gt;2. call_admin_user 与 call_account是什么关系？&lt;br&gt;3.&amp;nbsp;call_config是怎么用的&lt;br&gt;4. call_detail\ivr_trans有什么关系吗？&lt;br&gt;5.&amp;nbsp;call_case 与 case_assignment是1:1的关系吗？&lt;br&gt;6.&amp;nbsp;case_sms_flow表中有一个extra_id这个信息是什么？&lt;br&gt;7. company表中有个area_id注释是区域ID，但area表表示机构，那这个area_id是机构id吗？&lt;br&gt;8.&amp;nbsp;company_address与company是1:1的关系吧？" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="20" y="850" width="350" height="210" as="geometry" />
+        <mxCell id="k25ElWPyXL3KTAe7HJmq-33" value="&lt;h1&gt;疑问点&lt;/h1&gt;&lt;p&gt;1. case_tag怎么和case_tag_config关联起来？所有关于tag的表，是不是都能通过code关联起来？&lt;/p&gt;2. call_admin_user 与 call_account是什么关系？&lt;br&gt;3.&amp;nbsp;call_config是怎么用的&lt;br&gt;4. call_detail\ivr_trans有什么关系吗？&lt;br&gt;5.&amp;nbsp;call_case 与 case_assignment是1:1的关系吗？&lt;br&gt;6.&amp;nbsp;case_sms_flow表中有一个extra_id这个信息是什么？&lt;br&gt;7. company表中有个area_id,是哪个area的id，注释是区域ID，但area表表示机构，那这个area_id是机构id吗？&lt;br&gt;8.&amp;nbsp;company_address与company是1:1的关系吧？&lt;br&gt;9. area与area_data有关系吗？&lt;br&gt;10.&amp;nbsp;call_case里有一个admin_user_id这个与case_assignment中的admin_user_id有什么区别吗？&lt;br&gt;11.&amp;nbsp;call_admin_user与call_account是不是1:1的关系？" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="860" width="680" height="300" as="geometry" />
         </mxCell>
         <mxCell id="k25ElWPyXL3KTAe7HJmq-34" value="call_case_comp" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="200" y="20" width="100" height="40" as="geometry" />
