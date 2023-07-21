@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-21T03:51:41.875Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="W670cHW-JK_XkQAdz4ht" version="21.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-21T03:55:41.105Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="g_HlGAdiNN0KSX343b9-" version="21.6.3" type="github">
   <diagram name="数据表及关系" id="yUdO4xcYojDsIHdRHsY_">
     <mxGraphModel dx="2021" dy="1785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -308,9 +308,6 @@
         </mxCell>
         <mxCell id="k25ElWPyXL3KTAe7HJmq-28" value="case_tag_sms" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="930" y="45" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="k25ElWPyXL3KTAe7HJmq-33" value="&lt;h1&gt;疑问点&lt;/h1&gt;&lt;p&gt;1. case_tag怎么和case_tag_config关联起来？所有关于tag的表，是不是都能通过code关联起来？是的&lt;/p&gt;2. call_admin_user 与 call_account是什么关系？需要进一步确认@孙道明&lt;br&gt;3.&amp;nbsp;call_config是怎么用的?已弃用，之前保存三方电话&lt;br&gt;4. call_detail\ivr_trans有什么关系吗？ivr已废弃&lt;br&gt;5.&amp;nbsp;call_case 与 case_assignment是1:1的关系吗？不是，1对多&lt;br&gt;6.&amp;nbsp;case_sms_flow表中有一个extra_id这个信息是什么？需要进一步确定，不重要，有可能是call_detail的id&lt;br&gt;7. company表中有个area_id,是哪个area的id，注释是区域ID，但area表表示机构，那这个area_id是机构id吗？@道明&lt;br&gt;8.&amp;nbsp;company_address与company是1:1的关系吧？@道明&lt;br&gt;9. area与area_data有关系吗？弃用，再确认下&lt;br&gt;10.&amp;nbsp;call_case里有一个admin_user_id这个与case_assignment中的admin_user_id有什么区别吗？待确认下&lt;br&gt;11.&amp;nbsp;call_admin_user与call_account是不是1:1的关系？@道明&lt;br&gt;12.&amp;nbsp;call_coupon_template是不是通过conifig里面的tags与cast_tag进行关联？&lt;br&gt;&lt;br&gt;13 有问题的划线部分&lt;br&gt;&lt;br&gt;call_notification是消息中心的意思&lt;br&gt;detail中的case_id有可能是null，直接拨打电话而不是通过case&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-370" y="880" width="680" height="360" as="geometry" />
         </mxCell>
         <mxCell id="k25ElWPyXL3KTAe7HJmq-34" value="call_case_comp" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="600" y="870" width="100" height="40" as="geometry" />
