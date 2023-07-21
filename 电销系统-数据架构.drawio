@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-21T04:00:10.826Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="YAJdXM9JpSo2_gwMYqiv" version="21.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-21T05:54:59.147Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="I--fyrnPel_bc5sGF7h4" version="21.6.3" type="github">
   <diagram name="数据表及关系" id="yUdO4xcYojDsIHdRHsY_">
     <mxGraphModel dx="2021" dy="1785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -70,7 +70,7 @@
         <mxCell id="k25ElWPyXL3KTAe7HJmq-78" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="k25ElWPyXL3KTAe7HJmq-3" target="k25ElWPyXL3KTAe7HJmq-77" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="k25ElWPyXL3KTAe7HJmq-80" value="1:1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="k25ElWPyXL3KTAe7HJmq-78" vertex="1" connectable="0">
+        <mxCell id="k25ElWPyXL3KTAe7HJmq-80" value="N:1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="k25ElWPyXL3KTAe7HJmq-78" vertex="1" connectable="0">
           <mxGeometry x="-0.0353" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -281,6 +281,14 @@
             <mxPoint x="-32" y="45" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="r7IPP9PSDweJiNPolzMG-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="k25ElWPyXL3KTAe7HJmq-17" target="k25ElWPyXL3KTAe7HJmq-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r7IPP9PSDweJiNPolzMG-2" value="1:N&lt;br&gt;extra_id可能是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="r7IPP9PSDweJiNPolzMG-1">
+          <mxGeometry x="0.0435" y="-1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="k25ElWPyXL3KTAe7HJmq-17" value="call_detail" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="740" y="-430" width="100" height="40" as="geometry" />
         </mxCell>
@@ -332,7 +340,7 @@
         <mxCell id="k25ElWPyXL3KTAe7HJmq-45" value="call_coupon_template" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="960" y="-190" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="k25ElWPyXL3KTAe7HJmq-46" value="call_ivr_trans" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+        <mxCell id="k25ElWPyXL3KTAe7HJmq-46" value="call_ivr_trans&lt;br&gt;（已弃用）" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;fillColor=#E6E6E6;" parent="1" vertex="1">
           <mxGeometry x="1070" y="-510" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="k25ElWPyXL3KTAe7HJmq-49" value="call_login_status_cache" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
