@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-21T05:55:47.481Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Y_IVsPKLLm2Vwx1EzvGZ" version="21.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-21T06:00:55.037Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="zNEsUzzKEeYTrjBXD3t0" version="21.6.3" type="github">
   <diagram name="数据表及关系" id="yUdO4xcYojDsIHdRHsY_">
     <mxGraphModel dx="2021" dy="1785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -494,6 +494,9 @@
         </mxCell>
         <mxCell id="k25ElWPyXL3KTAe7HJmq-127" value="assign_config_user_relation" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="440" y="-755" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r7IPP9PSDweJiNPolzMG-5" value="&lt;h1&gt;图例说明&lt;/h1&gt;&lt;p&gt;1. 线段的方向分别对应起点表、终点表&lt;/p&gt;&lt;p&gt;2. 线段箭头方向代表了数据依赖关系，终点表依赖起点表&lt;/p&gt;&lt;p&gt;3. 线段标柱的对应关系，分号左侧代表起点表，分号右侧代表终点表&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-330" y="-950" width="230" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
