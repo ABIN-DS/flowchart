@@ -1,9 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2023-07-27T09:06:17.041Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.6.5" etag="XnbaDoNv7fXrrIFcq-1v" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-27T09:18:29.685Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Vh0lBXHEuOLrKHKC-Nhp" version="21.6.5" type="github">
   <diagram name="第 1 页" id="J0wDb5LOhFrOmeh5foII">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="7xZ_5i5Cm7x34CqW2UKj-3" value="接口" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="170" y="110" width="510" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="7xZ_5i5Cm7x34CqW2UKj-2" value="加黑/白" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="190" y="140" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="7xZ_5i5Cm7x34CqW2UKj-4" value="查询列表" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="290" y="140" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="7xZ_5i5Cm7x34CqW2UKj-5" value="数据迁移" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="390" y="140" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="7xZ_5i5Cm7x34CqW2UKj-6" value="核心功能" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="170" y="230" width="510" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="7xZ_5i5Cm7x34CqW2UKj-7" value="数据迁移" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="325" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7xZ_5i5Cm7x34CqW2UKj-8" value="加黑/白" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="260" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7xZ_5i5Cm7x34CqW2UKj-9" value="查询信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="260" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7xZ_5i5Cm7x34CqW2UKj-10" value="数据比对" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="325" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7xZ_5i5Cm7x34CqW2UKj-11" value="双写控制" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="260" width="100" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
