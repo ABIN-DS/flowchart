@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-06T03:05:17.578Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="nRTmDfOH4aExI_ycgAxD" version="21.6.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-08-06T03:10:23.636Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="4mlUfrQyBRPsOvOVkwER" version="21.6.5" type="github" pages="2">
   <diagram name="buffer状态变化" id="fQvPv3LpxqQHl15Cb9nG">
     <mxGraphModel dx="1194" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -88,12 +88,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="nBo-ZQKsoyFRc_m2vT_v" name="case状态变化">
-    <mxGraphModel dx="1194" dy="1929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2021" dy="1929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Za0wCCCYj-k5y1VkCqgG-84" value="recall_case 创建" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="120" y="-560" width="860" height="940" as="geometry" />
+          <mxGeometry x="-160" y="-560" width="1140" height="940" as="geometry" />
         </mxCell>
         <mxCell id="Za0wCCCYj-k5y1VkCqgG-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Za0wCCCYj-k5y1VkCqgG-1" target="Za0wCCCYj-k5y1VkCqgG-21">
           <mxGeometry relative="1" as="geometry" />
@@ -262,6 +262,27 @@
         </mxCell>
         <mxCell id="Za0wCCCYj-k5y1VkCqgG-81" value="fill field by RecallCaseVO" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Za0wCCCYj-k5y1VkCqgG-80">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Za0wCCCYj-k5y1VkCqgG-85" value="&lt;h1&gt;关键逻辑&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="-560" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Za0wCCCYj-k5y1VkCqgG-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Za0wCCCYj-k5y1VkCqgG-86" target="Za0wCCCYj-k5y1VkCqgG-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Za0wCCCYj-k5y1VkCqgG-86" value="api&lt;br&gt;/case/save" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="-250" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Za0wCCCYj-k5y1VkCqgG-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Za0wCCCYj-k5y1VkCqgG-87" target="Za0wCCCYj-k5y1VkCqgG-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Za0wCCCYj-k5y1VkCqgG-87" value="RecallTaskJob&lt;br&gt;召回任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="-150" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Za0wCCCYj-k5y1VkCqgG-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Za0wCCCYj-k5y1VkCqgG-88" target="Za0wCCCYj-k5y1VkCqgG-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Za0wCCCYj-k5y1VkCqgG-88" value="RecallCaseBufferTransformJob&lt;br&gt;标签buffer任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="-40" width="180" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
