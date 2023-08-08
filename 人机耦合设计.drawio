@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-08T10:28:42.250Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="ZVADZri6B9Ey7YlfF8Gx" version="21.6.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-08-08T10:29:14.805Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="Ic7P09qQP0q0c8m5RE2P" version="21.6.6" type="github" pages="2">
   <diagram id="JUfXOBkVjWRgSmGBqmJC" name="服务依赖关系">
     <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -138,10 +138,10 @@
             <mxPoint x="9" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_1bM7Vzk3lpORluig_xV-87" value="AI外呼回传信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_1bM7Vzk3lpORluig_xV-7">
+        <mxCell id="_1bM7Vzk3lpORluig_xV-87" value="AI外呼&lt;br&gt;通话记录信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_1bM7Vzk3lpORluig_xV-7">
           <mxGeometry x="26.25" y="980" width="97.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FJZdkM9a9OmlcEGiRWCL-13" value="AI外呼结果信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_1bM7Vzk3lpORluig_xV-7">
+        <mxCell id="FJZdkM9a9OmlcEGiRWCL-13" value="AI外呼&lt;br&gt;结果信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_1bM7Vzk3lpORluig_xV-7">
           <mxGeometry x="26.25" y="1260" width="97.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_1bM7Vzk3lpORluig_xV-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="_1bM7Vzk3lpORluig_xV-5" source="_1bM7Vzk3lpORluig_xV-103" target="_1bM7Vzk3lpORluig_xV-89">
