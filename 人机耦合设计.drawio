@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-08T09:00:09.806Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="N3HYKAAOKtUi7E8eDbHa" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-08T09:00:54.316Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="gRe4ENwiZfsvZn_OB9im" version="21.6.6" type="github">
   <diagram name="调用链路" id="Lr2nZqK2E54NiZKOLUjm">
     <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -229,7 +229,7 @@
           <mxGeometry x="321" y="747.5" width="50" height="25" as="geometry" />
         </mxCell>
         <mxCell id="_1bM7Vzk3lpORluig_xV-35" value="是否AICC" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="_1bM7Vzk3lpORluig_xV-8">
-          <mxGeometry x="35" y="450" width="80" height="60" as="geometry" />
+          <mxGeometry x="35" y="440" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_1bM7Vzk3lpORluig_xV-47" value="计算任务并发数量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_1bM7Vzk3lpORluig_xV-8">
           <mxGeometry x="95" y="80" width="115" height="40" as="geometry" />
@@ -247,6 +247,11 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="945" y="640" as="sourcePoint" />
             <mxPoint x="945" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_1bM7Vzk3lpORluig_xV-144" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_1bM7Vzk3lpORluig_xV-114">
+          <mxGeometry x="-0.12" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_1bM7Vzk3lpORluig_xV-113" value="发起SIP转接" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_1bM7Vzk3lpORluig_xV-8">
