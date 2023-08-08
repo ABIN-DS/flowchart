@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-08T10:29:14.805Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="Ic7P09qQP0q0c8m5RE2P" version="21.6.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-08-08T10:30:30.407Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="eu84SA2HrJbJBVo4gjIE" version="21.6.6" type="github" pages="2">
   <diagram id="JUfXOBkVjWRgSmGBqmJC" name="服务依赖关系">
     <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -312,7 +312,7 @@
             <mxPoint x="230" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_1bM7Vzk3lpORluig_xV-19" value="坐席" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="_1bM7Vzk3lpORluig_xV-19" value="坐席&lt;br&gt;or&lt;br&gt;系统自动" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="110" y="340" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_1bM7Vzk3lpORluig_xV-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_1bM7Vzk3lpORluig_xV-92" target="FJZdkM9a9OmlcEGiRWCL-9">
