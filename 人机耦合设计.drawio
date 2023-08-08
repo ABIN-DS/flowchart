@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-08T10:15:22.036Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="heNRh3zChomqRFUi8Ir7" version="21.6.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-08-08T10:16:30.602Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="Y2a24vxfjFtsvEq7kOGs" version="21.6.6" type="github" pages="2">
   <diagram id="JUfXOBkVjWRgSmGBqmJC" name="服务依赖关系">
     <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -183,7 +183,7 @@
         <mxCell id="_1bM7Vzk3lpORluig_xV-103" value="是否&lt;br&gt;有空闲坐席" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="_1bM7Vzk3lpORluig_xV-9">
           <mxGeometry x="45" y="700" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_1bM7Vzk3lpORluig_xV-124" value="SIP挂机响应" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_1bM7Vzk3lpORluig_xV-9">
+        <mxCell id="_1bM7Vzk3lpORluig_xV-124" value="SIP挂机信令" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_1bM7Vzk3lpORluig_xV-9">
           <mxGeometry x="37.5" y="1180" width="95" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FJZdkM9a9OmlcEGiRWCL-6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="_1bM7Vzk3lpORluig_xV-9" source="FJZdkM9a9OmlcEGiRWCL-4" target="_1bM7Vzk3lpORluig_xV-103">
