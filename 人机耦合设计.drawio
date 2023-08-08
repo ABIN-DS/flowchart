@@ -1,4 +1,27 @@
-<mxfile host="app.diagrams.net" modified="2023-08-08T09:01:46.460Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="os1CMitnZUdix0XFFL9H" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-08T09:29:49.191Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="t-312_eS2pemNnKjv8t_" version="21.6.6" type="github" pages="2">
+  <diagram id="JUfXOBkVjWRgSmGBqmJC" name="服务依赖关系">
+    <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fP1SIuXxyGspSP5brlso-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fP1SIuXxyGspSP5brlso-1" target="fP1SIuXxyGspSP5brlso-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fP1SIuXxyGspSP5brlso-6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fP1SIuXxyGspSP5brlso-1" target="fP1SIuXxyGspSP5brlso-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fP1SIuXxyGspSP5brlso-1" value="电销" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="310" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fP1SIuXxyGspSP5brlso-2" value="Notification" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="380" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fP1SIuXxyGspSP5brlso-5" value="YTalk" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="270" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram name="调用链路" id="Lr2nZqK2E54NiZKOLUjm">
     <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
