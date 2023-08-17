@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T09:13:55.770Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="Ecdsgs1NH9OtZBdvLVZQ" version="21.6.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-08-17T09:15:58.735Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="EpbgrB98L_Ij0hSQ53t7" version="21.6.8" type="github" pages="3">
   <diagram id="JUfXOBkVjWRgSmGBqmJC" name="服务依赖关系">
     <mxGraphModel dx="1194" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -393,6 +393,20 @@
         </mxCell>
         <mxCell id="YiiRxVUFreFbk5nIfhIY-122" value="坐席" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=middle;html=1;outlineConnect=0;" vertex="1" parent="YiiRxVUFreFbk5nIfhIY-2">
           <mxGeometry x="-100" y="1180" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YiiRxVUFreFbk5nIfhIY-149" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="YiiRxVUFreFbk5nIfhIY-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="870" as="sourcePoint" />
+            <mxPoint x="1282" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YiiRxVUFreFbk5nIfhIY-150" value="配置阶段" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YiiRxVUFreFbk5nIfhIY-149">
+          <mxGeometry x="-0.9548" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YiiRxVUFreFbk5nIfhIY-151" value="坐席工作流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="YiiRxVUFreFbk5nIfhIY-2">
+          <mxGeometry x="-10" y="1540" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YiiRxVUFreFbk5nIfhIY-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;verticalAlign=middle;" edge="1" parent="YiiRxVUFreFbk5nIfhIY-1" source="YiiRxVUFreFbk5nIfhIY-109" target="YiiRxVUFreFbk5nIfhIY-115">
           <mxGeometry relative="1" as="geometry" />
