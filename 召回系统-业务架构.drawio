@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-05T04:35:25.517Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="i3EeikXzrgpAcwrKTgaW" version="21.7.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-09-05T04:39:13.940Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="vMM60YwH60bvhCKII-JX" version="21.7.1" type="github" pages="4">
   <diagram name="系统&amp;角色&amp;UI关系图" id="JTP_TphxvL8e3fdHrhSc">
-    <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="954" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -58,9 +58,9 @@
         <mxCell id="Pfi7u19-nIzxKK7tHVrl-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Pfi7u19-nIzxKK7tHVrl-2" target="o_ALCuuCgBvZ6vkwsRsV-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Pfi7u19-nIzxKK7tHVrl-13" value="优惠券" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Pfi7u19-nIzxKK7tHVrl-6">
+        <mxCell id="Pfi7u19-nIzxKK7tHVrl-13" value="优惠券/降息/抽奖/体验金卡等促销活动" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Pfi7u19-nIzxKK7tHVrl-6">
           <mxGeometry x="-0.2571" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="10" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Pfi7u19-nIzxKK7tHVrl-2" value="cash-loan-service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
