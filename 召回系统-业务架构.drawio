@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-05T04:51:24.483Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="l3msCzGP3sLwg-8gCTUK" version="21.7.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-09-05T04:59:08.900Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="pGeMhMiFIoyE8j4cxwo7" version="21.7.1" type="github" pages="4">
   <diagram name="系统&amp;角色&amp;UI关系图" id="JTP_TphxvL8e3fdHrhSc">
     <mxGraphModel dx="954" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -216,7 +216,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FLLQ5omvBTyxUS7VJEYp" name="业务模块">
-    <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="954" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -227,19 +227,19 @@
           <mxGeometry x="264" y="220" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CQMekr0L5ocUVeYk2xVy-3" value="内容" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="344" y="220" width="70" height="30" as="geometry" />
+          <mxGeometry x="344" y="220" width="86" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CQMekr0L5ocUVeYk2xVy-4" value="召回规则" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="304" y="170" width="110" height="30" as="geometry" />
+          <mxGeometry x="304" y="170" width="126" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CQMekr0L5ocUVeYk2xVy-5" value="策略" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="184" y="170" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CQMekr0L5ocUVeYk2xVy-6" value="任务" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="184" y="120" width="230" height="30" as="geometry" />
+          <mxGeometry x="184" y="120" width="246" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="CQMekr0L5ocUVeYk2xVy-8" value="限频" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="134" y="120" width="30" height="130" as="geometry" />
+        <mxCell id="CQMekr0L5ocUVeYk2xVy-8" value="限频/黑名单" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="130" y="120" width="40" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
