@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-05T04:49:13.871Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="0rlx6NWdWVXPma9C7v-u" version="21.7.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-09-05T04:50:52.784Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="nRIN8B1NF7KEUKr-BtP4" version="21.7.1" type="github" pages="4">
   <diagram name="系统&amp;角色&amp;UI关系图" id="JTP_TphxvL8e3fdHrhSc">
     <mxGraphModel dx="954" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -128,10 +128,10 @@
         <mxCell id="X7x3U-Ke94_EQplUjkP9-2" value="促销业务" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="940" y="496.25" width="240" height="173.75" as="geometry" />
         </mxCell>
-        <mxCell id="X7x3U-Ke94_EQplUjkP9-4" value="召回" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="X7x3U-Ke94_EQplUjkP9-4" value="召回" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="970" y="538.75" width="80" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="X7x3U-Ke94_EQplUjkP9-5" value="电销" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="X7x3U-Ke94_EQplUjkP9-5" value="电销" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="1070" y="538.75" width="90" height="45" as="geometry" />
         </mxCell>
         <mxCell id="X7x3U-Ke94_EQplUjkP9-6" value="呼叫中心" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
