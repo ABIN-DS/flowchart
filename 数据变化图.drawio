@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-13T03:48:22.891Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="nXdCYkRhwWERibtozZR_" version="21.7.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-09-13T03:49:16.071Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="WXQlUJtpAJY-P8cdU-eh" version="21.7.2" type="github" pages="5">
   <diagram name="buffer状态变化" id="fQvPv3LpxqQHl15Cb9nG">
     <mxGraphModel dx="1194" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -615,7 +615,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="KSkpoHcmEutqVzA9c6Vf" name="IVR案件流转">
+  <diagram id="KSkpoHcmEutqVzA9c6Vf" name="IVR案件流转-单个content">
     <mxGraphModel dx="2514" dy="929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -1576,6 +1576,14 @@
         <mxCell id="3g77_70cxGDJd3fK1wJI-481" value="case_schedule-1" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="3g77_70cxGDJd3fK1wJI-454">
           <mxGeometry y="300" width="1230" height="120" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="0lN9bKYpTCdcYeu4xwRv" name="IVR案件流转-多个content">
+    <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
