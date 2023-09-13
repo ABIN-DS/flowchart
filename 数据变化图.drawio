@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-13T03:56:47.190Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="0CdPxQsyBrug5PBvoWSA" version="21.7.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-09-13T03:57:23.050Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="ntzu0F0BBxu9kcNmEb7q" version="21.7.2" type="github" pages="5">
   <diagram name="buffer状态变化" id="fQvPv3LpxqQHl15Cb9nG">
     <mxGraphModel dx="1194" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -620,10 +620,10 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="3g77_70cxGDJd3fK1wJI-1" value="情况：1个召回规则(1个召回策略)，1个content，需要收集数据，content不可跳过" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="3g77_70cxGDJd3fK1wJI-1" value="正常情况：1个召回规则(1个召回策略)，1个content，需要收集数据，content不可跳过" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="10" y="640" width="1390" height="272" as="geometry" />
         </mxCell>
-        <mxCell id="3g77_70cxGDJd3fK1wJI-2" value="情况：1个召回规则(1个召回策略)，1个content，需要收集数据，content可跳过" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="3g77_70cxGDJd3fK1wJI-2" value="正常情况：1个召回规则(1个召回策略)，1个content，需要收集数据，content可跳过" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="10" y="360" width="1390" height="262" as="geometry" />
         </mxCell>
         <mxCell id="3g77_70cxGDJd3fK1wJI-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3g77_70cxGDJd3fK1wJI-4" target="3g77_70cxGDJd3fK1wJI-6">
@@ -871,7 +871,7 @@
         <mxCell id="3g77_70cxGDJd3fK1wJI-81" value="StageProcessingStatusTransitionJob" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="3g77_70cxGDJd3fK1wJI-79">
           <mxGeometry x="-50" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3g77_70cxGDJd3fK1wJI-82" value="情况：1个召回规则(1个召回策略)，1个content，不需要收集数据，content可跳过" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="3g77_70cxGDJd3fK1wJI-82" value="正常情况：1个召回规则(1个召回策略)，1个content，不需要收集数据，content可跳过" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="10" y="80" width="790" height="262" as="geometry" />
         </mxCell>
         <mxCell id="3g77_70cxGDJd3fK1wJI-84" value="PROCESS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -945,7 +945,7 @@
         <mxCell id="3g77_70cxGDJd3fK1wJI-118" value="StageProcessingStatusTransitionJob" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="3g77_70cxGDJd3fK1wJI-116">
           <mxGeometry x="-50" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3g77_70cxGDJd3fK1wJI-423" value="情况：1个召回规则(1个召回策略)，1个content，发生拦截" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" vertex="1" parent="1">
+        <mxCell id="3g77_70cxGDJd3fK1wJI-423" value="拦截情况：1个召回规则(1个召回策略)，1个content，发生拦截" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" vertex="1" parent="1">
           <mxGeometry x="10" y="990" width="1030" height="260" as="geometry" />
         </mxCell>
         <mxCell id="3g77_70cxGDJd3fK1wJI-424" value="recall_case" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="3g77_70cxGDJd3fK1wJI-423">
@@ -1028,7 +1028,7 @@
         <mxCell id="3g77_70cxGDJd3fK1wJI-449" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="3g77_70cxGDJd3fK1wJI-446" source="3g77_70cxGDJd3fK1wJI-447" target="3g77_70cxGDJd3fK1wJI-448">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3g77_70cxGDJd3fK1wJI-454" value="情况：1个召回规则(1个召回策略)，1个content，content不可跳过，但失败了" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" vertex="1" parent="1">
+        <mxCell id="3g77_70cxGDJd3fK1wJI-454" value="失败情况：1个召回规则(1个召回策略)，1个content，content不可跳过，但失败了" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" vertex="1" parent="1">
           <mxGeometry x="11" y="1320" width="1029" height="300" as="geometry" />
         </mxCell>
         <mxCell id="3g77_70cxGDJd3fK1wJI-455" value="recall_case" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="3g77_70cxGDJd3fK1wJI-454">
