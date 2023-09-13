@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-13T06:15:09.143Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="7gmbIydBjQ3rNhCBw2pC" version="21.7.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-09-13T06:25:01.098Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="_jyFvPVpFGfQGkU7ss5j" version="21.7.2" type="github" pages="6">
   <diagram name="buffer状态变化" id="fQvPv3LpxqQHl15Cb9nG">
     <mxGraphModel dx="954" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -586,8 +586,18 @@
         <mxCell id="BCUWzYcUeXEDIZn8_v8z-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6EpSgy-9E-XlerwFbsPw-1" source="6EpSgy-9E-XlerwFbsPw-20" target="BCUWzYcUeXEDIZn8_v8z-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="BCUWzYcUeXEDIZn8_v8z-28" value="立案时&lt;br&gt;超过设置的时间" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BCUWzYcUeXEDIZn8_v8z-26">
+          <mxGeometry x="-0.2752" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="BCUWzYcUeXEDIZn8_v8z-27" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="6EpSgy-9E-XlerwFbsPw-1" source="6EpSgy-9E-XlerwFbsPw-20" target="BCUWzYcUeXEDIZn8_v8z-16">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BCUWzYcUeXEDIZn8_v8z-30" value="电销&amp;amp;滞留" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BCUWzYcUeXEDIZn8_v8z-27">
+          <mxGeometry x="0.3705" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="6EpSgy-9E-XlerwFbsPw-20" value="INIT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6EpSgy-9E-XlerwFbsPw-1">
           <mxGeometry x="140" y="450" width="120" height="60" as="geometry" />
