@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-17T12:20:02.649Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="GrIq_ICnb3b41YHmFAgP" version="21.7.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-09-17T12:20:54.752Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="BXsCplMWSyupypS9c01C" version="21.7.5" type="github" pages="2">
   <diagram id="C6W7_-lyYOECEeJ5wVP4" name="重构模型关系">
     <mxGraphModel dx="1194" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -12,7 +12,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="FAs4rgALgp9-eol_j8uM-28" value="控制面板V1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="FAs4rgALgp9-eol_j8uM-28" value="策略管理V1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="70" y="300" width="1200" height="110" as="geometry" />
         </mxCell>
         <mxCell id="FAs4rgALgp9-eol_j8uM-27" value="运行时" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
@@ -86,7 +86,7 @@
         <mxCell id="FAs4rgALgp9-eol_j8uM-22" value="block超时关案&lt;br&gt;RecallCaseChangeStatusJob" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="990" y="590" width="200" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="FAs4rgALgp9-eol_j8uM-30" value="控制面板V2" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="FAs4rgALgp9-eol_j8uM-30" value="策略管理V2" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="70" y="150" width="1200" height="110" as="geometry" />
         </mxCell>
         <mxCell id="FAs4rgALgp9-eol_j8uM-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="FAs4rgALgp9-eol_j8uM-32" target="FAs4rgALgp9-eol_j8uM-34" parent="1">
@@ -115,12 +115,6 @@
         </mxCell>
         <mxCell id="FAs4rgALgp9-eol_j8uM-40" value="处理引擎" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-30" y="480" width="70" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="FAs4rgALgp9-eol_j8uM-41" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="40" y="150" width="20" height="105" as="geometry" />
-        </mxCell>
-        <mxCell id="FAs4rgALgp9-eol_j8uM-42" value="策略管理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-30" y="187.5" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
