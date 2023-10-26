@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-26T13:58:44.154Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="19Enx4UGITPoA4oXA7vC" version="21.7.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-10-26T23:35:44.467Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="ytx62FPraC3TsIqV2T23" version="21.7.5" type="github" pages="3">
   <diagram id="fTAgdkfDgx4bp4r_mibD" name="标签与召回模型关系">
-    <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1194" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -51,7 +51,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UJ1YfZ1l8FCDVQ_FWexG-6" value="规则" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="UJ1YfZ1l8FCDVQ_FWexG-6" value="规则集&lt;br&gt;（单变量规则/组合规则）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="410" y="380" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UJ1YfZ1l8FCDVQ_FWexG-10" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="UJ1YfZ1l8FCDVQ_FWexG-8" target="UJ1YfZ1l8FCDVQ_FWexG-9">
@@ -107,7 +107,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="x54i7hT3NsHm1ePdERT5" name="数据模型">
-    <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1194" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -120,10 +120,12 @@
         <mxCell id="g5WmfjWRgyQqkPhHd7yk-1" value="策略树" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="220" width="660" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="g5WmfjWRgyQqkPhHd7yk-14" style="orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;rounded=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="g5WmfjWRgyQqkPhHd7yk-2" target="g5WmfjWRgyQqkPhHd7yk-5">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="g5WmfjWRgyQqkPhHd7yk-14" style="orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;rounded=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="g5WmfjWRgyQqkPhHd7yk-2" target="g5WmfjWRgyQqkPhHd7yk-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="340" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="g5WmfjWRgyQqkPhHd7yk-15" value="1:N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g5WmfjWRgyQqkPhHd7yk-14">
+        <mxCell id="g5WmfjWRgyQqkPhHd7yk-15" value="N:N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g5WmfjWRgyQqkPhHd7yk-14">
           <mxGeometry x="-0.0333" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -132,7 +134,7 @@
           <mxGeometry x="120" y="310" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="g5WmfjWRgyQqkPhHd7yk-3" value="规则集" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="310" width="120" height="60" as="geometry" />
+          <mxGeometry x="300" y="310" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="g5WmfjWRgyQqkPhHd7yk-33" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="g5WmfjWRgyQqkPhHd7yk-4" target="g5WmfjWRgyQqkPhHd7yk-32">
           <mxGeometry relative="1" as="geometry" />
@@ -145,22 +147,11 @@
         <mxCell id="g5WmfjWRgyQqkPhHd7yk-4" value="人群&lt;br&gt;（基础/分支）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="400" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="g5WmfjWRgyQqkPhHd7yk-16" style="orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;rounded=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="g5WmfjWRgyQqkPhHd7yk-5" target="g5WmfjWRgyQqkPhHd7yk-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="g5WmfjWRgyQqkPhHd7yk-17" value="N:1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g5WmfjWRgyQqkPhHd7yk-16">
-          <mxGeometry x="-0.1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="g5WmfjWRgyQqkPhHd7yk-5" value="规则" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="310" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="g5WmfjWRgyQqkPhHd7yk-8" value="版本" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="1">
           <mxGeometry x="750" y="260" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="g5WmfjWRgyQqkPhHd7yk-9" value="版本" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="1">
-          <mxGeometry x="570" y="350" width="30" height="20" as="geometry" />
+          <mxGeometry x="390" y="350" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="g5WmfjWRgyQqkPhHd7yk-11" value="内容" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="660" y="400" width="120" height="60" as="geometry" />
@@ -203,7 +194,7 @@
           <mxGeometry x="370" y="440" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Eve3HCsHOngLBfl6ivmf-9" value="多表协同" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="520" y="350" width="50" height="20" as="geometry" />
+          <mxGeometry x="340" y="350" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Eve3HCsHOngLBfl6ivmf-10" value="多表协同" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="550" y="440" width="50" height="20" as="geometry" />
@@ -243,7 +234,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="处理引擎" id="DIgMmTA0-sPKbl4sKN2a">
-    <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1194" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
