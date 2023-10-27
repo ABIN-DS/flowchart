@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-27T04:06:13.002Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="u3PslF9nHZ_arHh4vhXM" version="21.7.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-10-27T04:12:09.551Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="7rBIg62QIfqUpqTtTQ_1" version="21.7.5" type="github" pages="3">
   <diagram id="fTAgdkfDgx4bp4r_mibD" name="标签与召回模型关系">
     <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -320,7 +320,7 @@
         <mxCell id="FTZUywQZgXYwz_32TQcc-16" value="sch处理结果事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="880" y="540" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FTZUywQZgXYwz_32TQcc-21" value="&lt;h1&gt;事件模型需要承载的功能&lt;/h1&gt;&lt;p&gt;1. 案件相关：立案、关案&lt;/p&gt;&lt;p&gt;2. sch相关：变量收集、sch发送、sch延时发送（隔夜推送）、sch不可跳过、&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="FTZUywQZgXYwz_32TQcc-21" value="&lt;h1&gt;事件模型需要承载的功能&lt;/h1&gt;&lt;p&gt;1. 案件相关：立案、关案&lt;/p&gt;&lt;p&gt;2. sch相关：变量收集、sch发送、sch延时处理（隔夜推送）、sch不可跳过&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="110" y="80" width="380" height="120" as="geometry" />
         </mxCell>
         <mxCell id="FTZUywQZgXYwz_32TQcc-22" value="案件处理结果事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
