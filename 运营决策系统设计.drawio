@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-27T06:03:07.931Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="wYtZHC_Fu-1LAeEQW3xq" version="21.7.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-10-27T06:49:04.142Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="9m5P6e851aC3MKdtiLJv" version="21.7.5" type="github" pages="3">
   <diagram id="fTAgdkfDgx4bp4r_mibD" name="标签与召回模型关系">
     <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -335,19 +335,25 @@
             <mxPoint x="5" y="19" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="teJ92_hOLtsS_m1qLj6J-16" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FTZUywQZgXYwz_32TQcc-11" target="FTZUywQZgXYwz_32TQcc-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="teJ92_hOLtsS_m1qLj6J-17" value="sch进度全部完成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="teJ92_hOLtsS_m1qLj6J-16">
+          <mxGeometry x="0.0133" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="FTZUywQZgXYwz_32TQcc-11" value="sch分发" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="710" y="320" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="FTZUywQZgXYwz_32TQcc-23" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="FTZUywQZgXYwz_32TQcc-16" target="FTZUywQZgXYwz_32TQcc-22">
+        <mxCell id="teJ92_hOLtsS_m1qLj6J-14" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="FTZUywQZgXYwz_32TQcc-16" target="FTZUywQZgXYwz_32TQcc-11">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="940" y="600" />
-              <mxPoint x="580" y="600" />
-            </Array>
+            <mxPoint x="850" y="545" as="sourcePoint" />
+            <mxPoint x="720" y="415" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="teJ92_hOLtsS_m1qLj6J-7" value="sch进度全部完成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FTZUywQZgXYwz_32TQcc-23">
-          <mxGeometry x="0.3442" y="-1" relative="1" as="geometry">
+        <mxCell id="teJ92_hOLtsS_m1qLj6J-15" value="不可跳过完成&lt;br&gt;则唤醒其他未完成节点" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="teJ92_hOLtsS_m1qLj6J-14">
+          <mxGeometry x="0.2317" y="-15" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -359,6 +365,12 @@
         </mxCell>
         <mxCell id="FTZUywQZgXYwz_32TQcc-22" value="案件处理结果消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="485" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="teJ92_hOLtsS_m1qLj6J-12" value="定时任务&lt;br&gt;发送结果获取及更新" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="650" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="teJ92_hOLtsS_m1qLj6J-13" value="定时任务&lt;br&gt;按时间获取待发送任务" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="650" width="190" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
