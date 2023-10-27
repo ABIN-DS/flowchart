@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-27T08:25:22.079Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="Izm6vj8pVOs_vrMjwuBa" version="21.7.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-10-27T08:26:08.174Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="4aI6GlDmU8AMRX0eXTZU" version="21.7.5" type="github" pages="5">
   <diagram id="fTAgdkfDgx4bp4r_mibD" name="标签与召回模型关系">
     <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -477,7 +477,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jGME0bBxlAr8qKropyV6-7" value="运行" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jGME0bBxlAr8qKropyV6-7" value="运行" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="360" y="190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jGME0bBxlAr8qKropyV6-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="jGME0bBxlAr8qKropyV6-9" target="jGME0bBxlAr8qKropyV6-7">
@@ -493,7 +493,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jGME0bBxlAr8qKropyV6-9" value="暂停" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jGME0bBxlAr8qKropyV6-9" value="暂停" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="560" y="190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jGME0bBxlAr8qKropyV6-18" value="树节点状态 / 分支人群 / 决策树节点 / 触达规则 状态" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
@@ -512,7 +512,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jGME0bBxlAr8qKropyV6-24" value="运行" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jGME0bBxlAr8qKropyV6-24" value="运行" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="260" y="440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jGME0bBxlAr8qKropyV6-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" source="jGME0bBxlAr8qKropyV6-27" target="jGME0bBxlAr8qKropyV6-24" parent="1">
@@ -528,7 +528,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jGME0bBxlAr8qKropyV6-27" value="暂停" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jGME0bBxlAr8qKropyV6-27" value="暂停" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="460" y="440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="M92Hsv6QzW9EHokw1du3-1" value="案件 执行结果状态" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
@@ -561,13 +561,13 @@
         <mxCell id="M92Hsv6QzW9EHokw1du3-4" value="初始态" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="710" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="M92Hsv6QzW9EHokw1du3-7" value="全部成功" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="M92Hsv6QzW9EHokw1du3-7" value="全部成功" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="490" y="630" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="M92Hsv6QzW9EHokw1du3-10" value="部分成功" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="M92Hsv6QzW9EHokw1du3-10" value="部分成功" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="490" y="710" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="M92Hsv6QzW9EHokw1du3-11" value="全部失败" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="M92Hsv6QzW9EHokw1du3-11" value="全部失败" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="490" y="790" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="M92Hsv6QzW9EHokw1du3-16" value="案件执行计划 状态" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
@@ -585,7 +585,7 @@
         <mxCell id="M92Hsv6QzW9EHokw1du3-29" value="处理中" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="660" y="970" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="M92Hsv6QzW9EHokw1du3-31" value="完成" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="M92Hsv6QzW9EHokw1du3-31" value="完成" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="910" y="970" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="M92Hsv6QzW9EHokw1du3-34" value="处理进度" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -618,28 +618,28 @@
         <mxCell id="M92Hsv6QzW9EHokw1du3-36" value="初始态" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="605" y="1260" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="M92Hsv6QzW9EHokw1du3-37" value="数据收集失败" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="M92Hsv6QzW9EHokw1du3-37" value="数据收集失败" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="600" y="1140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CCmuyHEVDU0HhsyelesW-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M92Hsv6QzW9EHokw1du3-39" target="M92Hsv6QzW9EHokw1du3-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="M92Hsv6QzW9EHokw1du3-39" value="数据收集成功" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="M92Hsv6QzW9EHokw1du3-39" value="数据收集成功" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="820" y="1255" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="M92Hsv6QzW9EHokw1du3-40" value="发送请求失败" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="M92Hsv6QzW9EHokw1du3-40" value="发送请求失败" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="820" y="1130" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="M92Hsv6QzW9EHokw1du3-41" value="发送请求成功" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="M92Hsv6QzW9EHokw1du3-41" value="发送请求成功" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="820" y="1365" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="M92Hsv6QzW9EHokw1du3-42" value="延时等待" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="M92Hsv6QzW9EHokw1du3-42" value="延时等待" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="430" y="1365" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="M92Hsv6QzW9EHokw1du3-43" value="发送结果等待&lt;br&gt;（不可跳过）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="M92Hsv6QzW9EHokw1du3-43" value="发送结果等待&lt;br&gt;（不可跳过）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="600" y="1370" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CCmuyHEVDU0HhsyelesW-1" value="被拦截&lt;br&gt;（黑名单/限制频率/关案）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="CCmuyHEVDU0HhsyelesW-1" value="被拦截&lt;br&gt;（黑名单/限制频率/关案）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="430" y="1140" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
