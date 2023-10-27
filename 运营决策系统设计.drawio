@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-27T06:49:04.142Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="9m5P6e851aC3MKdtiLJv" version="21.7.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-10-27T07:08:35.874Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="uNr4drdC1-N3perwkV18" version="21.7.5" type="github" pages="3">
   <diagram id="fTAgdkfDgx4bp4r_mibD" name="标签与召回模型关系">
     <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -298,6 +298,12 @@
         <mxCell id="FTZUywQZgXYwz_32TQcc-7" value="sch发送消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="880" y="275" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="teJ92_hOLtsS_m1qLj6J-22" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FTZUywQZgXYwz_32TQcc-8" target="teJ92_hOLtsS_m1qLj6J-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="teJ92_hOLtsS_m1qLj6J-23" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FTZUywQZgXYwz_32TQcc-8" target="teJ92_hOLtsS_m1qLj6J-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="FTZUywQZgXYwz_32TQcc-8" value="sch休眠消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="880" y="375" width="120" height="60" as="geometry" />
         </mxCell>
@@ -363,14 +369,59 @@
         <mxCell id="FTZUywQZgXYwz_32TQcc-21" value="&lt;h1&gt;消息模型需要承载的功能&lt;/h1&gt;&lt;p&gt;1. 案件相关：立案、关案&lt;/p&gt;&lt;p&gt;2. sch相关：变量收集、sch发送、sch延时处理（隔夜推送）、sch不可跳过&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="110" y="80" width="380" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="FTZUywQZgXYwz_32TQcc-22" value="案件处理结果消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="FTZUywQZgXYwz_32TQcc-22" value="案件处理完成" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="485" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="teJ92_hOLtsS_m1qLj6J-12" value="定时任务&lt;br&gt;发送结果获取及更新" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="790" y="650" width="190" height="60" as="geometry" />
+        <mxCell id="teJ92_hOLtsS_m1qLj6J-27" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.338;entryY=0.85;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="teJ92_hOLtsS_m1qLj6J-12" target="FTZUywQZgXYwz_32TQcc-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1345" y="710" />
+              <mxPoint x="710" y="710" />
+              <mxPoint x="710" y="388" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="teJ92_hOLtsS_m1qLj6J-13" value="定时任务&lt;br&gt;按时间获取待发送任务" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="650" width="190" height="60" as="geometry" />
+        <mxCell id="teJ92_hOLtsS_m1qLj6J-28" value="发送成功后的分发" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="teJ92_hOLtsS_m1qLj6J-27">
+          <mxGeometry x="-0.1919" y="-3" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teJ92_hOLtsS_m1qLj6J-12" value="定时任务&lt;br&gt;发送结果获取及更新" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="422.5" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="teJ92_hOLtsS_m1qLj6J-26" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="teJ92_hOLtsS_m1qLj6J-13" target="FTZUywQZgXYwz_32TQcc-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1345" y="170" />
+              <mxPoint x="1060" y="170" />
+              <mxPoint x="1060" y="100" />
+              <mxPoint x="700" y="100" />
+              <mxPoint x="700" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teJ92_hOLtsS_m1qLj6J-29" value="到发送时间的分发" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="teJ92_hOLtsS_m1qLj6J-26">
+          <mxGeometry x="-0.1536" y="-1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teJ92_hOLtsS_m1qLj6J-13" value="定时任务&lt;br&gt;按时间获取到时间的待发送任务" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="327.5" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="teJ92_hOLtsS_m1qLj6J-19" value="&lt;h1&gt;关键结构&lt;/h1&gt;&lt;p&gt;sch消息结构：&lt;/p&gt;&lt;p&gt;{&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;caseScheduleList&quot;: [{&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &quot;currScheduleId&quot;:1,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &quot;nextScheduleId&quot;:null&amp;nbsp; //如果null，表示需处理的最后一个节点，主要用于通知案件都完成了&lt;/p&gt;&lt;p&gt;&amp;nbsp; }],&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;eventType&quot;: &quot;&quot;,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;eventDesc&quot;: &quot;收集结果&quot;&lt;/p&gt;&lt;p&gt;}&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="560" width="430" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="teJ92_hOLtsS_m1qLj6J-24" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="teJ92_hOLtsS_m1qLj6J-20" target="teJ92_hOLtsS_m1qLj6J-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="teJ92_hOLtsS_m1qLj6J-20" value="延时发送任务" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="360" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="teJ92_hOLtsS_m1qLj6J-25" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="teJ92_hOLtsS_m1qLj6J-21" target="teJ92_hOLtsS_m1qLj6J-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="teJ92_hOLtsS_m1qLj6J-21" value="不可跳过任务" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="422.5" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
