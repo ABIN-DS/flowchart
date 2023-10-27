@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-27T07:33:47.396Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="yWx7srpoB-ZtMV-nRLuW" version="21.7.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-10-27T07:40:16.880Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="Gtkq9wgYXj9Da4afVVW_" version="21.7.5" type="github" pages="4">
   <diagram id="fTAgdkfDgx4bp4r_mibD" name="标签与召回模型关系">
     <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -224,7 +224,7 @@
         <mxCell id="Eve3HCsHOngLBfl6ivmf-12" value="案件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="540" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Eve3HCsHOngLBfl6ivmf-16" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Eve3HCsHOngLBfl6ivmf-14" target="Eve3HCsHOngLBfl6ivmf-15">
+        <mxCell id="Eve3HCsHOngLBfl6ivmf-16" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Eve3HCsHOngLBfl6ivmf-14" target="Eve3HCsHOngLBfl6ivmf-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Eve3HCsHOngLBfl6ivmf-19" value="1:N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Eve3HCsHOngLBfl6ivmf-16">
@@ -232,14 +232,25 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="px50oltvCqACCDsfTtm3-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Eve3HCsHOngLBfl6ivmf-14" target="px50oltvCqACCDsfTtm3-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="px50oltvCqACCDsfTtm3-3" value="1:N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="px50oltvCqACCDsfTtm3-2">
+          <mxGeometry x="-0.0871" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Eve3HCsHOngLBfl6ivmf-14" value="案件执行计划" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="650" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Eve3HCsHOngLBfl6ivmf-15" value="发送记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="590" y="650" width="120" height="60" as="geometry" />
+        <mxCell id="Eve3HCsHOngLBfl6ivmf-15" value="延时发送任务表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="610" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yJtiRWorSMamiIOgyI0E-1" value="案件变量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="px50oltvCqACCDsfTtm3-1" value="等待结果任务表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="680" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
