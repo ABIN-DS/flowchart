@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-30T04:04:00.956Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="czD1zHL8e_VkYaZVDa1M" version="21.7.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-10-30T04:21:21.262Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="z99q3GaXMr-jK-E4DSlT" version="21.7.5" type="github" pages="5">
   <diagram id="fTAgdkfDgx4bp4r_mibD" name="标签与召回模型关系">
     <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -642,6 +642,57 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="8x6q97ikdGoXXNVAZUzA-6" value="service" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="40" y="170" width="770" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="8x6q97ikdGoXXNVAZUzA-7" value="manager（多数据源/多模型）" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="40" y="420" width="770" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="8x6q97ikdGoXXNVAZUzA-8" value="mysql" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="570" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8x6q97ikdGoXXNVAZUzA-9" value="redis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="570" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8x6q97ikdGoXXNVAZUzA-10" value="mongo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="570" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8x6q97ikdGoXXNVAZUzA-11" value="变量相关" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="302" y="330" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8x6q97ikdGoXXNVAZUzA-12" value="规则集相关" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="302" y="270" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8x6q97ikdGoXXNVAZUzA-13" value="人群" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="330" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8x6q97ikdGoXXNVAZUzA-14" value="决策树" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="270" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8x6q97ikdGoXXNVAZUzA-15" value="触达规则" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="182" y="270" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8x6q97ikdGoXXNVAZUzA-16" value="内容" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="330" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8x6q97ikdGoXXNVAZUzA-17" value="策略树" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="210" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8x6q97ikdGoXXNVAZUzA-18" value="处理引擎" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="442" y="210" width="338" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8x6q97ikdGoXXNVAZUzA-19" value="数据处理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="442" y="270" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8x6q97ikdGoXXNVAZUzA-20" value="案件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="270" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8x6q97ikdGoXXNVAZUzA-21" value="延时任务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="677" y="270" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8x6q97ikdGoXXNVAZUzA-22" value="等待结果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="442" y="330" width="105" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
