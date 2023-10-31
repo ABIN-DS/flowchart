@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-31T11:10:11.261Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="Q8V5kXLV0H2cYiGnd3ud" version="21.7.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-10-31T11:13:54.782Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="Ift8cIuDpgTf4JXgDSEl" version="21.7.5" type="github" pages="6">
   <diagram id="fTAgdkfDgx4bp4r_mibD" name="标签与召回模型关系">
     <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -790,7 +790,7 @@
           <mxGeometry x="100" y="1010" width="720" height="320" as="geometry" />
         </mxCell>
         <mxCell id="SbBGPs4M8lDkZylt0Og8-3" value="策略树" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="119" y="80" width="981" height="210" as="geometry" />
+          <mxGeometry x="119" y="80" width="691" height="260" as="geometry" />
         </mxCell>
         <mxCell id="SbBGPs4M8lDkZylt0Og8-4" style="orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;rounded=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="SbBGPs4M8lDkZylt0Og8-6" target="SbBGPs4M8lDkZylt0Og8-7">
           <mxGeometry relative="1" as="geometry">
@@ -924,8 +924,29 @@
         <mxCell id="SbBGPs4M8lDkZylt0Og8-43" value="三方请求日志" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="370" y="1240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SbBGPs4M8lDkZylt0Og8-98" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="140" width="120" height="60" as="geometry" />
+        <mxCell id="SbBGPs4M8lDkZylt0Og8-98" value="strategy_flow" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SbBGPs4M8lDkZylt0Og8-99" value="strategy_flow_version" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="240" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SbBGPs4M8lDkZylt0Og8-100" value="strategy_flow_tree" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="110" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SbBGPs4M8lDkZylt0Og8-101" value="strategy_flow_statis" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SbBGPs4M8lDkZylt0Og8-102" value="规则集" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="460" width="485" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="SbBGPs4M8lDkZylt0Og8-103" value="rule_set" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="500" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SbBGPs4M8lDkZylt0Og8-104" value="rule_set_version" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="394.5" y="590" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SbBGPs4M8lDkZylt0Og8-105" value="rule_set_detail" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="590" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
