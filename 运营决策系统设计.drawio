@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-30T12:24:06.562Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="mNPXrBln9ws6llxYTRHi" version="21.7.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-10-31T01:54:21.545Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="bYWIzh0GUzbGFaTe4OnB" version="21.7.5" type="github" pages="5">
   <diagram id="fTAgdkfDgx4bp4r_mibD" name="标签与召回模型关系">
     <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -425,7 +425,7 @@
         <mxCell id="teJ92_hOLtsS_m1qLj6J-13" value="定时任务&lt;br&gt;按时间获取到时间的待发送任务" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="1250" y="327.5" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="teJ92_hOLtsS_m1qLj6J-19" value="&lt;h1&gt;关键结构&lt;/h1&gt;&lt;p&gt;sch消息结构：&lt;/p&gt;&lt;p&gt;{&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;caseScheduleList&quot;: [{&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &quot;caseId&quot;:1,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &quot;caseScheduleId&quot;:1,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; “triggerConfigId&quot;:1,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &quot;contentId&quot;:2&lt;/p&gt;&lt;p&gt;&amp;nbsp; }],&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;eventType&quot;: &quot;COLLECT_DATA&quot;, //需收集信息，直接发送，延迟发送，不可跳过等待，拦截，发送成功，发送失败，收集失败&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;eventDesc&quot;: &quot;收集结果&quot;&lt;/p&gt;&lt;p&gt;}&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="teJ92_hOLtsS_m1qLj6J-19" value="&lt;h1&gt;可能存在问题&lt;/h1&gt;&lt;div&gt;1. 单个批次消息处理失败，卡住&lt;/div&gt;&lt;div&gt;2. 消息丢失&lt;/div&gt;&lt;div&gt;3. 重启异步处理任务中断&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="120" y="560" width="600" height="360" as="geometry" />
         </mxCell>
         <mxCell id="teJ92_hOLtsS_m1qLj6J-24" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="teJ92_hOLtsS_m1qLj6J-20" target="teJ92_hOLtsS_m1qLj6J-13">
