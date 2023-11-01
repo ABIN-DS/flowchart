@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-01T08:17:34.409Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="AZTqJIaG-KbsTYdbE6ig" version="21.7.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-11-01T08:20:06.571Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="QO8Jl3-fKDHoqIm_HN7-" version="21.7.5" type="github" pages="6">
   <diagram id="fTAgdkfDgx4bp4r_mibD" name="标签与召回模型关系">
     <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -787,7 +787,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="SbBGPs4M8lDkZylt0Og8-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="90" y="1150" width="680" height="410" as="geometry" />
+          <mxGeometry x="90" y="1150" width="820" height="410" as="geometry" />
         </mxCell>
         <mxCell id="SbBGPs4M8lDkZylt0Og8-3" value="策略树" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="119" y="80" width="691" height="260" as="geometry" />
@@ -801,8 +801,8 @@
         <mxCell id="SbBGPs4M8lDkZylt0Og8-27" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="SbBGPs4M8lDkZylt0Og8-28" target="SbBGPs4M8lDkZylt0Og8-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SbBGPs4M8lDkZylt0Og8-28" value="推送数据处理失败" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="120" y="1180" width="120" height="60" as="geometry" />
+        <mxCell id="SbBGPs4M8lDkZylt0Og8-28" value="推送数据处理失败&lt;br&gt;opds_push_data_deal_fail_log" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="119" y="1180" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SbBGPs4M8lDkZylt0Og8-29" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="SbBGPs4M8lDkZylt0Og8-33" target="SbBGPs4M8lDkZylt0Og8-38" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -820,8 +820,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SbBGPs4M8lDkZylt0Og8-33" value="案件" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="1180" width="120" height="60" as="geometry" />
+        <mxCell id="SbBGPs4M8lDkZylt0Og8-33" value="案件&lt;br&gt;opds_case" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="1180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SbBGPs4M8lDkZylt0Og8-34" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="SbBGPs4M8lDkZylt0Og8-38" target="SbBGPs4M8lDkZylt0Og8-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -847,16 +847,16 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SbBGPs4M8lDkZylt0Og8-38" value="案件执行计划" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="360" y="1290" width="120" height="60" as="geometry" />
+        <mxCell id="SbBGPs4M8lDkZylt0Og8-38" value="案件执行计划&lt;br&gt;opds_case_schedule" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="1300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SbBGPs4M8lDkZylt0Og8-39" value="延时发送任务" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="590" y="1270" width="120" height="60" as="geometry" />
+        <mxCell id="SbBGPs4M8lDkZylt0Og8-39" value="延时发送任务&lt;br&gt;opds_case_schedule_delay_task" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="625" y="1250" width="195" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SbBGPs4M8lDkZylt0Og8-40" value="案件变量" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="1290" width="120" height="60" as="geometry" />
+        <mxCell id="SbBGPs4M8lDkZylt0Og8-40" value="案件变量&lt;br&gt;opds_case_vars" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="230" y="1300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ttPqzk5QCU66HHFXrFJd-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SbBGPs4M8lDkZylt0Og8-41" target="SbBGPs4M8lDkZylt0Og8-43">
+        <mxCell id="ttPqzk5QCU66HHFXrFJd-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SbBGPs4M8lDkZylt0Og8-41" target="SbBGPs4M8lDkZylt0Og8-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ttPqzk5QCU66HHFXrFJd-2" value="N:1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ttPqzk5QCU66HHFXrFJd-1">
@@ -864,14 +864,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SbBGPs4M8lDkZylt0Og8-41" value="等待结果任务" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="590" y="1360" width="120" height="60" as="geometry" />
+        <mxCell id="SbBGPs4M8lDkZylt0Og8-41" value="等待结果任务&lt;br&gt;opds_case_schedule_wait_result_task" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="625" y="1340" width="215" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SbBGPs4M8lDkZylt0Og8-42" value="异常失败消息(kafka消息暂存)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="130" y="1460" width="360" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SbBGPs4M8lDkZylt0Og8-43" value="三方请求日志" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="590" y="1460" width="120" height="60" as="geometry" />
+        <mxCell id="SbBGPs4M8lDkZylt0Og8-43" value="三方请求日志&lt;br&gt;opds_case_schedule_result_batch_req_log" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="625" y="1450" width="255" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SbBGPs4M8lDkZylt0Og8-98" value="strategy_flow" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="390" y="180" width="120" height="60" as="geometry" />
