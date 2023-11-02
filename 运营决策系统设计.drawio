@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-02T03:49:09.853Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="tccyXpk3stJxs01VK51I" version="22.0.8" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-11-02T03:56:56.976Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="CGKwIo6Gyq9U4KEvXOAG" version="22.0.8" type="github" pages="7">
   <diagram id="fTAgdkfDgx4bp4r_mibD" name="标签与召回模型关系">
     <mxGraphModel dx="1194" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -796,7 +796,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="SbBGPs4M8lDkZylt0Og8-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="90" y="1150" width="820" height="410" as="geometry" />
+          <mxGeometry x="240" y="860" width="820" height="410" as="geometry" />
         </mxCell>
         <mxCell id="SbBGPs4M8lDkZylt0Og8-3" value="决策树" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="1241" y="80" width="959" height="360" as="geometry" />
@@ -805,13 +805,13 @@
           <mxGeometry x="30" y="90" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="SbBGPs4M8lDkZylt0Og8-22" value="运行层" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="30" y="1500" width="60" height="30" as="geometry" />
+          <mxGeometry x="160" y="1040" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="SbBGPs4M8lDkZylt0Og8-27" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="SbBGPs4M8lDkZylt0Og8-28" target="SbBGPs4M8lDkZylt0Og8-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SbBGPs4M8lDkZylt0Og8-28" value="推送数据处理失败&lt;br&gt;opds_push_data_deal_fail_log" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="119" y="1180" width="170" height="60" as="geometry" />
+          <mxGeometry x="269" y="890" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SbBGPs4M8lDkZylt0Og8-29" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="SbBGPs4M8lDkZylt0Og8-33" target="SbBGPs4M8lDkZylt0Og8-38" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -830,7 +830,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="SbBGPs4M8lDkZylt0Og8-33" value="案件&lt;br&gt;opds_case" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="340" y="1180" width="120" height="60" as="geometry" />
+          <mxGeometry x="490" y="890" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SbBGPs4M8lDkZylt0Og8-34" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="SbBGPs4M8lDkZylt0Og8-38" target="SbBGPs4M8lDkZylt0Og8-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -857,13 +857,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="SbBGPs4M8lDkZylt0Og8-38" value="案件执行计划&lt;br&gt;opds_case_schedule" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="400" y="1300" width="120" height="60" as="geometry" />
+          <mxGeometry x="550" y="1010" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SbBGPs4M8lDkZylt0Og8-39" value="延时发送任务&lt;br&gt;opds_case_schedule_delay_task" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="625" y="1250" width="195" height="60" as="geometry" />
+          <mxGeometry x="775" y="960" width="195" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SbBGPs4M8lDkZylt0Og8-40" value="案件变量&lt;br&gt;opds_case_vars" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="230" y="1300" width="120" height="60" as="geometry" />
+          <mxGeometry x="380" y="1010" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ttPqzk5QCU66HHFXrFJd-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="SbBGPs4M8lDkZylt0Og8-41" target="SbBGPs4M8lDkZylt0Og8-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -874,13 +874,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="SbBGPs4M8lDkZylt0Og8-41" value="等待结果任务&lt;br&gt;opds_case_schedule_wait_result_task" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="625" y="1340" width="215" height="60" as="geometry" />
+          <mxGeometry x="775" y="1050" width="215" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SbBGPs4M8lDkZylt0Og8-42" value="异常失败消息(kafka消息暂存)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="130" y="1460" width="360" height="60" as="geometry" />
+          <mxGeometry x="280" y="1170" width="360" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SbBGPs4M8lDkZylt0Og8-43" value="三方请求日志&lt;br&gt;opds_case_schedule_result_batch_req_log" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="625" y="1450" width="255" height="60" as="geometry" />
+          <mxGeometry x="775" y="1160" width="255" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k79cnULVO-qjHSt0bMGy-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="SbBGPs4M8lDkZylt0Og8-98" target="SbBGPs4M8lDkZylt0Og8-101" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -913,16 +913,16 @@
           <mxGeometry x="1722.5" y="180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SbBGPs4M8lDkZylt0Og8-102" value="规则集" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="572.5" y="770" width="485" height="220" as="geometry" />
+          <mxGeometry x="160" y="490" width="485" height="220" as="geometry" />
         </mxCell>
         <mxCell id="SbBGPs4M8lDkZylt0Og8-103" value="rule_set" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="745" y="800" width="140" height="60" as="geometry" />
+          <mxGeometry x="332.5" y="520" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SbBGPs4M8lDkZylt0Og8-104" value="rule_set_version" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="629.5" y="890" width="140" height="60" as="geometry" />
+          <mxGeometry x="217" y="610" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SbBGPs4M8lDkZylt0Og8-105" value="rule_set_detail" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="835" y="890" width="140" height="60" as="geometry" />
+          <mxGeometry x="422.5" y="610" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k79cnULVO-qjHSt0bMGy-2" value="基础配置" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="160" y="30" width="876" height="390" as="geometry" />
@@ -1068,6 +1068,9 @@
         </mxCell>
         <mxCell id="v32UxDD_bWLwvactRA-L-3" value="渲染模型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="570" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4W683Uoz8cXD7XDFipEY-1" value="&lt;h1&gt;标签处理引擎&lt;/h1&gt;&lt;p&gt;1. 规则组优先级高&lt;/p&gt;&lt;p&gt;2. and、or优先级相同，按顺序运算&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="30" width="260" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
