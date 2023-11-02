@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-02T06:51:53.825Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="aO8M9TmulcOyycPoyP_f" version="22.0.8" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-11-02T06:52:07.019Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="zCrf0I3yRVr-6G8TKBef" version="22.0.8" type="github" pages="7">
   <diagram id="fTAgdkfDgx4bp4r_mibD" name="标签与召回模型关系">
     <mxGraphModel dx="1194" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -258,7 +258,7 @@
         <mxCell id="NeasgIHMzMa3jI5TDg1K-1" value="三方请求日志" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="740" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="L_CLh0citHpiX5RbnOkv-1" value="&lt;h1&gt;注意&lt;/h1&gt;&lt;p&gt;1. 共享数据：变量、规则集、人群（基础）、内容，共享数据都有版本（变量不可变，不需要版本）&lt;/p&gt;&lt;p&gt;2. 私有数据：决策树、触达规则，这两个数据什么时候新建、什么时候更新，需要开发时详细考虑&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;一个分支人群，有多个触达规则，怎么处理？&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+        <mxCell id="L_CLh0citHpiX5RbnOkv-1" value="&lt;h1&gt;注意&lt;/h1&gt;&lt;p&gt;1. 共享数据：变量、规则集、人群（基础）、内容，共享数据都有版本（变量不可变，不需要版本）&lt;/p&gt;&lt;p&gt;2. 私有数据：决策树、触达规则，这两个数据什么时候新建、什么时候更新，需要开发时详细考虑&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="850" y="200" width="500" height="200" as="geometry" />
         </mxCell>
       </root>
