@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-07T08:43:28.513Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="VqRAQ8r9EY6jBfoCoNkr" version="22.0.8" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-11-07T08:45:14.613Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="seY2E7L3bh_7nBOd5z4E" version="22.0.8" type="github" pages="8">
   <diagram id="fTAgdkfDgx4bp4r_mibD" name="标签与召回模型关系">
     <mxGraphModel dx="1194" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1177,7 +1177,7 @@
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vIh-kdOtYK-eAaN5LTQ2-30" value="决策树&lt;br&gt;opds_decision_tree" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vIh-kdOtYK-eAaN5LTQ2-30" value="阶段（决策树）&lt;br&gt;stage" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="850" y="180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vIh-kdOtYK-eAaN5LTQ2-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vIh-kdOtYK-eAaN5LTQ2-33" target="vIh-kdOtYK-eAaN5LTQ2-62">
