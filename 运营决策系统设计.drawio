@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-07T08:53:48.826Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="0Suy15sRWaFkbaNYWEw2" version="22.0.8" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-11-07T08:54:38.126Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Nwjy3rzVdJ7blhd_IChK" version="22.0.8" type="github" pages="8">
   <diagram id="fTAgdkfDgx4bp4r_mibD" name="标签与召回模型关系">
     <mxGraphModel dx="1194" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1095,82 +1095,7 @@
           <mxGeometry x="500" y="-170" width="460" height="190" as="geometry" />
         </mxCell>
         <mxCell id="vIh-kdOtYK-eAaN5LTQ2-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="880" width="820" height="410" as="geometry" />
-        </mxCell>
-        <mxCell id="vIh-kdOtYK-eAaN5LTQ2-5" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="vIh-kdOtYK-eAaN5LTQ2-6" target="vIh-kdOtYK-eAaN5LTQ2-11">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="vIh-kdOtYK-eAaN5LTQ2-6" value="推送数据处理失败&lt;br&gt;opds_push_data_deal_fail_log" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="199" y="910" width="170" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="vIh-kdOtYK-eAaN5LTQ2-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vIh-kdOtYK-eAaN5LTQ2-11" target="vIh-kdOtYK-eAaN5LTQ2-18">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="vIh-kdOtYK-eAaN5LTQ2-8" value="1:N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vIh-kdOtYK-eAaN5LTQ2-7">
-          <mxGeometry x="-0.3333" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vIh-kdOtYK-eAaN5LTQ2-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vIh-kdOtYK-eAaN5LTQ2-11" target="vIh-kdOtYK-eAaN5LTQ2-20">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="vIh-kdOtYK-eAaN5LTQ2-10" value="1:N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vIh-kdOtYK-eAaN5LTQ2-9">
-          <mxGeometry x="-0.15" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vIh-kdOtYK-eAaN5LTQ2-11" value="案件&lt;br&gt;opds_case" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="910" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="vIh-kdOtYK-eAaN5LTQ2-12" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vIh-kdOtYK-eAaN5LTQ2-18" target="vIh-kdOtYK-eAaN5LTQ2-19">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="vIh-kdOtYK-eAaN5LTQ2-13" value="1:N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vIh-kdOtYK-eAaN5LTQ2-12">
-          <mxGeometry x="-0.2" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vIh-kdOtYK-eAaN5LTQ2-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vIh-kdOtYK-eAaN5LTQ2-18" target="vIh-kdOtYK-eAaN5LTQ2-23">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="vIh-kdOtYK-eAaN5LTQ2-15" value="1:N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vIh-kdOtYK-eAaN5LTQ2-14">
-          <mxGeometry x="-0.0871" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vIh-kdOtYK-eAaN5LTQ2-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vIh-kdOtYK-eAaN5LTQ2-18" target="vIh-kdOtYK-eAaN5LTQ2-25">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="vIh-kdOtYK-eAaN5LTQ2-17" value="N:1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vIh-kdOtYK-eAaN5LTQ2-16">
-          <mxGeometry x="-0.05" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vIh-kdOtYK-eAaN5LTQ2-18" value="案件执行计划&lt;br&gt;opds_case_schedule" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="1030" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="vIh-kdOtYK-eAaN5LTQ2-19" value="延时发送任务&lt;br&gt;opds_case_schedule_delay_task" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="705" y="980" width="195" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="vIh-kdOtYK-eAaN5LTQ2-20" value="案件变量&lt;br&gt;opds_case_vars" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="1030" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="vIh-kdOtYK-eAaN5LTQ2-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vIh-kdOtYK-eAaN5LTQ2-23" target="vIh-kdOtYK-eAaN5LTQ2-25">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="vIh-kdOtYK-eAaN5LTQ2-22" value="N:1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vIh-kdOtYK-eAaN5LTQ2-21">
-          <mxGeometry x="-0.0889" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vIh-kdOtYK-eAaN5LTQ2-23" value="等待结果任务&lt;br&gt;opds_case_schedule_wait_result_task" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="705" y="1070" width="215" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="vIh-kdOtYK-eAaN5LTQ2-24" value="异常失败消息(kafka消息暂存)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="1190" width="360" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="vIh-kdOtYK-eAaN5LTQ2-25" value="三方请求日志&lt;br&gt;opds_case_schedule_result_batch_req_log" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="705" y="1180" width="255" height="60" as="geometry" />
+          <mxGeometry x="60" y="530" width="1360" height="360" as="geometry" />
         </mxCell>
         <mxCell id="vIh-kdOtYK-eAaN5LTQ2-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vIh-kdOtYK-eAaN5LTQ2-30" target="vIh-kdOtYK-eAaN5LTQ2-33">
           <mxGeometry relative="1" as="geometry" />
