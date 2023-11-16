@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-16T12:46:44.427Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="QnoyyZmYyks32wvLD-Nb" version="22.1.2" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-11-16T12:50:49.301Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="P8xGXxBzppugpZNCpAW8" version="22.1.2" type="github" pages="10">
   <diagram id="fTAgdkfDgx4bp4r_mibD" name="标签与召回模型关系">
     <mxGraphModel dx="1434" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1510,6 +1510,9 @@
         </mxCell>
         <mxCell id="y656ZuS9qayx9c2GiRTY-68" value="生成主表/tree记录&lt;br&gt;（tree增删改）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="290" y="595" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y656ZuS9qayx9c2GiRTY-81" value="&lt;h1&gt;需要拿场景验证下&lt;/h1&gt;&lt;p&gt;* 新建树&lt;/p&gt;&lt;p&gt;* 修改内容&lt;/p&gt;&lt;p&gt;* 修改trigger&lt;/p&gt;&lt;p&gt;* 修改分支&lt;/p&gt;&lt;p&gt;* 新建分支&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="580" width="300" height="280" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
