@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-16T12:26:51.565Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="iCH-xa-J1EPEU4dUOY5Q" version="22.1.2" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-11-16T12:31:28.560Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="1qODu1REkKCI9FYIWk4I" version="22.1.2" type="github" pages="10">
   <diagram id="fTAgdkfDgx4bp4r_mibD" name="标签与召回模型关系">
     <mxGraphModel dx="1434" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1493,13 +1493,16 @@
         <mxCell id="y656ZuS9qayx9c2GiRTY-51" value="标签定时任务&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;（标签系统）&lt;br&gt;（none/insert）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="y656ZuS9qayx9c2GiRTY-56">
           <mxGeometry x="30" y="45" width="115" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="y656ZuS9qayx9c2GiRTY-70" value="主表&lt;br&gt;（none/update）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="y656ZuS9qayx9c2GiRTY-56">
+          <mxGeometry x="27.5" y="215" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="y656ZuS9qayx9c2GiRTY-69" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y656ZuS9qayx9c2GiRTY-27" target="y656ZuS9qayx9c2GiRTY-68">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="350" y="590" as="sourcePoint" />
             <mxPoint x="350" y="670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="y656ZuS9qayx9c2GiRTY-68" value="生成tree记录&lt;br&gt;（tree增删改）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="y656ZuS9qayx9c2GiRTY-68" value="生成主表/tree记录&lt;br&gt;（tree增删改）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="290" y="595" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
