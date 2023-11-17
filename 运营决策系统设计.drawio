@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-17T03:32:05.562Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Ck2ndg-eRrXu9Hf9Sveb" version="22.1.2" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-11-17T03:36:03.913Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="a32EhrekcHnUiRtcnRoq" version="22.1.2" type="github" pages="10">
   <diagram id="fTAgdkfDgx4bp4r_mibD" name="标签与召回模型关系">
     <mxGraphModel dx="1434" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1105,7 +1105,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="E8eTXBrqTmQlTzUvY9iz" name="数据表设计-V2">
-    <mxGraphModel dx="2261" dy="1955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1781" dy="1775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1375,7 +1375,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Bngvpls-Bop12nyXjom4" name="保存提交-处理流程">
-    <mxGraphModel dx="2084" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1831" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1627,14 +1627,8 @@
         <mxCell id="5ESFAYTldzn7H28nR-iU-38" value="主表" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-120" y="1300" width="550" height="550" as="geometry" />
         </mxCell>
-        <mxCell id="5ESFAYTldzn7H28nR-iU-39" value="case_tag" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5ESFAYTldzn7H28nR-iU-38">
-          <mxGeometry x="20" y="90" width="110" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="5ESFAYTldzn7H28nR-iU-40" value="strategy_flow" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5ESFAYTldzn7H28nR-iU-38">
           <mxGeometry x="20" y="40" width="110" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="5ESFAYTldzn7H28nR-iU-41" value="标签系统-人群" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5ESFAYTldzn7H28nR-iU-38">
-          <mxGeometry x="150" y="40" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="5ESFAYTldzn7H28nR-iU-42" value="支持动作" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="5ESFAYTldzn7H28nR-iU-38">
           <mxGeometry x="20" y="170" width="510" height="310" as="geometry" />
