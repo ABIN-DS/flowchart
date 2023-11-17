@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-17T01:38:26.322Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="K-mKwLVHuIfbsTNlhwpj" version="22.1.2" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-11-17T01:46:19.106Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Dcc3pCdQsnY0ZnIcGn_L" version="22.1.2" type="github" pages="10">
   <diagram id="fTAgdkfDgx4bp4r_mibD" name="标签与召回模型关系">
     <mxGraphModel dx="1434" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1501,10 +1501,10 @@
         <mxCell id="y656ZuS9qayx9c2GiRTY-58" value="人群相关&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;（本地/标签系统）&lt;br&gt;（none/delete）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="y656ZuS9qayx9c2GiRTY-55">
           <mxGeometry x="25" y="140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="y656ZuS9qayx9c2GiRTY-66" value="标签定时任务&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;（标签系统）&lt;br&gt;（none/delete）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="y656ZuS9qayx9c2GiRTY-55">
+        <mxCell id="y656ZuS9qayx9c2GiRTY-66" value="strategy相关&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;（标签系统）&lt;br&gt;（none/delete）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="y656ZuS9qayx9c2GiRTY-55">
           <mxGeometry x="27.5" y="45" width="115" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="y656ZuS9qayx9c2GiRTY-80" value="content相关&lt;br&gt;（none/delete）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="y656ZuS9qayx9c2GiRTY-55">
+        <mxCell id="y656ZuS9qayx9c2GiRTY-80" value="strategy相关&lt;br&gt;（none/delete）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="y656ZuS9qayx9c2GiRTY-55">
           <mxGeometry x="25" y="240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y656ZuS9qayx9c2GiRTY-56" value="新版本开启" style="swimlane;startSize=20;html=1;" vertex="1" parent="y656ZuS9qayx9c2GiRTY-53">
@@ -1513,7 +1513,7 @@
         <mxCell id="y656ZuS9qayx9c2GiRTY-50" value="stage相关&lt;br&gt;（none/update）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="y656ZuS9qayx9c2GiRTY-56">
           <mxGeometry x="27.5" y="140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="y656ZuS9qayx9c2GiRTY-51" value="标签定时任务&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;（标签系统）&lt;br&gt;（none/insert）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="y656ZuS9qayx9c2GiRTY-56">
+        <mxCell id="y656ZuS9qayx9c2GiRTY-51" value="strategy相关&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;（标签系统）&lt;br&gt;（none/insert）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="y656ZuS9qayx9c2GiRTY-56">
           <mxGeometry x="30" y="45" width="115" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y656ZuS9qayx9c2GiRTY-70" value="主表&lt;br&gt;（none/update）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="y656ZuS9qayx9c2GiRTY-56">
@@ -1552,8 +1552,41 @@
         <mxCell id="y656ZuS9qayx9c2GiRTY-86" value="生成主表/tree记录&lt;br&gt;（tree增删改）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="y656ZuS9qayx9c2GiRTY-84">
           <mxGeometry x="40" y="50" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5ESFAYTldzn7H28nR-iU-1" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="1030" width="200" height="200" as="geometry" />
+        <mxCell id="5ESFAYTldzn7H28nR-iU-1" value="人群相关" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1320" width="290" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="5ESFAYTldzn7H28nR-iU-2" value="case_tag" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5ESFAYTldzn7H28nR-iU-1">
+          <mxGeometry x="20" y="90" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5ESFAYTldzn7H28nR-iU-5" value="user_group" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5ESFAYTldzn7H28nR-iU-1">
+          <mxGeometry x="20" y="40" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5ESFAYTldzn7H28nR-iU-7" value="标签系统-人群" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5ESFAYTldzn7H28nR-iU-1">
+          <mxGeometry x="150" y="40" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5ESFAYTldzn7H28nR-iU-8" value="stage相关" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="1320" width="190" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="5ESFAYTldzn7H28nR-iU-10" value="stage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5ESFAYTldzn7H28nR-iU-8">
+          <mxGeometry x="20" y="40" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5ESFAYTldzn7H28nR-iU-11" value="stage_desision_node" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5ESFAYTldzn7H28nR-iU-8">
+          <mxGeometry x="20" y="90" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5ESFAYTldzn7H28nR-iU-12" value="strategy相关" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="1320" width="360" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="5ESFAYTldzn7H28nR-iU-13" value="strategy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5ESFAYTldzn7H28nR-iU-12">
+          <mxGeometry x="20" y="40" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5ESFAYTldzn7H28nR-iU-14" value="strategy_content" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5ESFAYTldzn7H28nR-iU-12">
+          <mxGeometry x="20" y="90" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5ESFAYTldzn7H28nR-iU-15" value="标签系统-定时任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5ESFAYTldzn7H28nR-iU-12">
+          <mxGeometry x="181" y="40" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5ESFAYTldzn7H28nR-iU-16" value="strategy_label_trigger" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5ESFAYTldzn7H28nR-iU-12">
+          <mxGeometry x="20" y="140" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
