@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-24T02:03:33.797Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="CK3fW42mcMaGjvCvNtyT" version="22.1.3" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-11-24T02:03:54.523Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="s_DJ4F42jzT-DUJyNDYS" version="22.1.3" type="github" pages="10">
   <diagram id="fTAgdkfDgx4bp4r_mibD" name="标签与召回模型关系">
     <mxGraphModel dx="1166" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -190,7 +190,7 @@
           <mxGeometry x="1240" y="730" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MWE3h0NfWxxPg6lUrx5Q-25" value="&lt;h1&gt;注意&lt;/h1&gt;&lt;p&gt;- 单变量规则只能新建或删除，没有修改&lt;/p&gt;&lt;p&gt;- 分支人群只能新建，没有修改&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1730" y="270" width="270" height="120" as="geometry" />
+          <mxGeometry x="1470" y="270" width="270" height="120" as="geometry" />
         </mxCell>
         <mxCell id="MWE3h0NfWxxPg6lUrx5Q-26" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
