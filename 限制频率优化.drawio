@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-28T11:11:34.741Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="KF9LIWjBjTPHcJWVglgi" version="23.1.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-02-28T11:32:28.877Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="UEigpkwzg72PqCwc3267" version="23.1.5" type="github" pages="3">
   <diagram name="模型分信息获取" id="fExOfupDMhsimvUawOej">
-    <mxGraphModel dx="1674" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -96,6 +96,32 @@
         </mxCell>
         <mxCell id="xNk3sKYP0GpP5RXeMubR-13" value="模型分" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="345" y="610" width="90" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ve3yZ1LFiV5sFqz1L6Oh" name="处理流程">
+    <mxGraphModel dx="1434" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RontMEDkNK1H9GaLp4c8-1" value="Pool" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130.00000000000045" y="130" width="600" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="RontMEDkNK1H9GaLp4c8-2" value="recall-schedule" style="swimlane;startSize=20;html=1;" vertex="1" parent="RontMEDkNK1H9GaLp4c8-1">
+          <mxGeometry y="20" width="120" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="RontMEDkNK1H9GaLp4c8-3" value="redis" style="swimlane;startSize=20;html=1;" vertex="1" parent="RontMEDkNK1H9GaLp4c8-1">
+          <mxGeometry x="120" y="20" width="120" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="RontMEDkNK1H9GaLp4c8-4" value="mysql" style="swimlane;startSize=20;html=1;" vertex="1" parent="RontMEDkNK1H9GaLp4c8-1">
+          <mxGeometry x="240" y="20" width="120" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="RontMEDkNK1H9GaLp4c8-5" value="hbase" style="swimlane;startSize=20;html=1;" vertex="1" parent="RontMEDkNK1H9GaLp4c8-1">
+          <mxGeometry x="360" y="20" width="120" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="RontMEDkNK1H9GaLp4c8-6" value="风控" style="swimlane;startSize=20;html=1;" vertex="1" parent="RontMEDkNK1H9GaLp4c8-1">
+          <mxGeometry x="480" y="20" width="120" height="460" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
