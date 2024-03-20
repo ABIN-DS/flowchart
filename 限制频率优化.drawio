@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-20T06:06:49.262Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="kiLSuxJOQaA0qVzAsIGR" version="24.0.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-03-20T06:10:42.391Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="phkxc_0tMFBQ3V1aI0Qc" version="24.0.7" type="github" pages="3">
   <diagram name="模型分信息获取" id="fExOfupDMhsimvUawOej">
     <mxGraphModel dx="1434" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -109,7 +109,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="RontMEDkNK1H9GaLp4c8-1" value="限制频率" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" parent="1" vertex="1">
-          <mxGeometry x="80" y="100" width="960" height="1110" as="geometry" />
+          <mxGeometry x="80" y="100" width="800" height="1110" as="geometry" />
         </mxCell>
         <mxCell id="RontMEDkNK1H9GaLp4c8-2" value="recall-schedule" style="swimlane;startSize=20;html=1;" parent="RontMEDkNK1H9GaLp4c8-1" vertex="1">
           <mxGeometry y="20" width="150" height="1090" as="geometry" />
@@ -194,14 +194,8 @@
         <mxCell id="RontMEDkNK1H9GaLp4c8-29" value="获取配置信息" style="rounded=0;whiteSpace=wrap;html=1;" parent="RontMEDkNK1H9GaLp4c8-4" vertex="1">
           <mxGeometry x="37.5" y="480" width="85" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="WyP790_0XLbIzXIhX1Wp-1" value="mysql" style="swimlane;startSize=20;html=1;" vertex="1" parent="RontMEDkNK1H9GaLp4c8-1">
-          <mxGeometry x="480" y="20" width="160" height="1090" as="geometry" />
-        </mxCell>
-        <mxCell id="WyP790_0XLbIzXIhX1Wp-2" value="获取配置信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WyP790_0XLbIzXIhX1Wp-1">
-          <mxGeometry x="37.5" y="480" width="85" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="RontMEDkNK1H9GaLp4c8-5" value="redis" style="swimlane;startSize=20;html=1;" parent="RontMEDkNK1H9GaLp4c8-1" vertex="1">
-          <mxGeometry x="640" y="20" width="160" height="1090" as="geometry" />
+          <mxGeometry x="480" y="20" width="160" height="1090" as="geometry" />
         </mxCell>
         <mxCell id="RontMEDkNK1H9GaLp4c8-20" value="写入模型分" style="rounded=0;whiteSpace=wrap;html=1;" parent="RontMEDkNK1H9GaLp4c8-5" vertex="1">
           <mxGeometry x="37.5" y="180" width="85" height="40" as="geometry" />
@@ -219,7 +213,7 @@
           <mxGeometry x="22" y="910" width="85" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RontMEDkNK1H9GaLp4c8-6" value="标签系统" style="swimlane;startSize=20;html=1;" parent="RontMEDkNK1H9GaLp4c8-1" vertex="1">
-          <mxGeometry x="800" y="20" width="160" height="1090" as="geometry" />
+          <mxGeometry x="640" y="20" width="160" height="1090" as="geometry" />
         </mxCell>
         <mxCell id="RontMEDkNK1H9GaLp4c8-14" value="获取模型分" style="rounded=0;whiteSpace=wrap;html=1;" parent="RontMEDkNK1H9GaLp4c8-6" vertex="1">
           <mxGeometry x="40" y="130" width="85" height="40" as="geometry" />
