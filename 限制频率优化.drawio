@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-20T06:10:42.391Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="phkxc_0tMFBQ3V1aI0Qc" version="24.0.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-03-20T06:12:25.528Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="hhDTR5lStQrFA8SyR5Th" version="24.0.7" type="github" pages="3">
   <diagram name="模型分信息获取" id="fExOfupDMhsimvUawOej">
     <mxGraphModel dx="1434" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -161,7 +161,7 @@
         <mxCell id="RontMEDkNK1H9GaLp4c8-25" value="" style="endArrow=none;html=1;rounded=0;" parent="RontMEDkNK1H9GaLp4c8-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint y="370" as="sourcePoint" />
-            <mxPoint x="960" y="370" as="targetPoint" />
+            <mxPoint x="800" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WyP790_0XLbIzXIhX1Wp-4" value="推送/限频中断" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RontMEDkNK1H9GaLp4c8-2">
