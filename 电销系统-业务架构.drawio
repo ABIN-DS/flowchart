@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-01T09:00:23.190Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="4S4lEk2dHHt8dOteCNMk" version="24.0.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-04-01T09:04:45.179Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="qmvIYKg9xLhEYNhOYRuY" version="24.0.7" type="github" pages="5">
   <diagram name="系统&amp;角色&amp;UI关系图" id="mD8ahaFPo7a6ZMi-6454">
     <mxGraphModel dx="954" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -192,7 +192,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0FmvkGgsljDMJ3bb_B2b" name="业务模型">
-    <mxGraphModel dx="954" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -262,6 +262,29 @@
         </mxCell>
         <mxCell id="l4BMA5hVHukTIofw3jZS-23" value="分配算法：&lt;div&gt;今日案件序号 % 分案配置中已冒泡的坐席总数&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="440" y="537.5" width="260" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="系统实现模型" id="C3vGJUaT6Ju-VWGOCJr8">
+    <mxGraphModel dx="954" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="aFpErE8VDpJJL7Ro8bEd-0" />
+        <mxCell id="aFpErE8VDpJJL7Ro8bEd-1" parent="aFpErE8VDpJJL7Ro8bEd-0" />
+        <mxCell id="8Ke-GZmW6MMMZGBSq5TR-0" value="案件" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="aFpErE8VDpJJL7Ro8bEd-1">
+          <mxGeometry x="170" y="140" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8Ke-GZmW6MMMZGBSq5TR-1" value="标签" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="aFpErE8VDpJJL7Ro8bEd-1">
+          <mxGeometry x="310" y="90" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8Ke-GZmW6MMMZGBSq5TR-2" value="分案配置" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="aFpErE8VDpJJL7Ro8bEd-1">
+          <mxGeometry x="460" y="190" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8Ke-GZmW6MMMZGBSq5TR-3" value="分案配置-手动" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="aFpErE8VDpJJL7Ro8bEd-1">
+          <mxGeometry x="650" y="130" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8Ke-GZmW6MMMZGBSq5TR-4" value="分案配置-自动" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="aFpErE8VDpJJL7Ro8bEd-1">
+          <mxGeometry x="650" y="250" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
