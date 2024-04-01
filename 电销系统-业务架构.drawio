@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-01T08:54:31.131Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="aZECFgV51jbxd8ILNf87" version="24.0.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-04-01T09:00:23.190Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="4S4lEk2dHHt8dOteCNMk" version="24.0.7" type="github" pages="4">
   <diagram name="系统&amp;角色&amp;UI关系图" id="mD8ahaFPo7a6ZMi-6454">
     <mxGraphModel dx="954" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -196,6 +196,12 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="l4BMA5hVHukTIofw3jZS-25" value="概念模型" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="185" y="80" width="655" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="l4BMA5hVHukTIofw3jZS-24" value="分案配置" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="50" y="410" width="920" height="290" as="geometry" />
+        </mxCell>
         <mxCell id="l4BMA5hVHukTIofw3jZS-14" value="标签1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="80" y="505" width="330" height="100" as="geometry" />
         </mxCell>
@@ -208,7 +214,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="l4BMA5hVHukTIofw3jZS-1" value="标签" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="160" width="120" height="80" as="geometry" />
+          <mxGeometry x="455" y="120" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="l4BMA5hVHukTIofw3jZS-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="l4BMA5hVHukTIofw3jZS-2" target="l4BMA5hVHukTIofw3jZS-1">
           <mxGeometry relative="1" as="geometry" />
@@ -219,10 +225,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="l4BMA5hVHukTIofw3jZS-2" value="案件" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="300" width="120" height="80" as="geometry" />
+          <mxGeometry x="245" y="260" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="l4BMA5hVHukTIofw3jZS-3" value="坐席/外呼人" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="300" width="120" height="80" as="geometry" />
+          <mxGeometry x="655" y="260" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="l4BMA5hVHukTIofw3jZS-10" value="案件1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="545" width="70" height="40" as="geometry" />
@@ -239,7 +245,7 @@
         <mxCell id="l4BMA5hVHukTIofw3jZS-15" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;verticalAlign=top;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="440" y="510" width="310" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="l4BMA5hVHukTIofw3jZS-18" value="分案配置" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="l4BMA5hVHukTIofw3jZS-18" value="坐席列表" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="770" y="442.5" width="175" height="225" as="geometry" />
         </mxCell>
         <mxCell id="l4BMA5hVHukTIofw3jZS-19" value="坐席1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
