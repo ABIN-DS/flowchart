@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-04-02T08:29:17.471Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="ZFAUIFKMO5zovbDwP-Op" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-02T08:44:17.207Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="OOjN0Vmn29uivT8o-Quu" version="24.0.7" type="github">
   <diagram name="第 1 页" id="lJJsQC5AeHxFyqL9eE7w">
     <mxGraphModel dx="954" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="F8KAM2sR8ir6AolAIyTC-43" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="680.04" y="360" width="469.96" height="210" as="geometry" />
+        <mxCell id="F8KAM2sR8ir6AolAIyTC-43" value="异步刷新点击次数" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="680.04" y="375" width="459.96" height="180" as="geometry" />
         </mxCell>
         <mxCell id="F8KAM2sR8ir6AolAIyTC-1" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
           <mxGeometry x="314" y="280" width="200" height="200" as="geometry" />
@@ -69,13 +69,13 @@
           <mxGeometry x="556.23" y="527.37" width="123.81" height="82.51" as="geometry" />
         </mxCell>
         <mxCell id="F8KAM2sR8ir6AolAIyTC-39" value="MySQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="1040.04" y="402.5" width="80" height="110" as="geometry" />
+          <mxGeometry x="1030" y="424.87" width="80" height="110" as="geometry" />
         </mxCell>
         <mxCell id="F8KAM2sR8ir6AolAIyTC-40" value="&lt;div&gt;&lt;b&gt;结构刷新&lt;/b&gt;&lt;/div&gt;copy待刷新数据结构&lt;div&gt;创建新的Map结构&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="700.04" y="425" width="160" height="80" as="geometry" />
+          <mxGeometry x="700.04" y="439.87" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="F8KAM2sR8ir6AolAIyTC-41" value="&lt;b&gt;分批次更新&lt;/b&gt;&lt;div&gt;分多个批次（每批100）&lt;/div&gt;&lt;div&gt;批量更新数据库&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="850.04" y="425" width="173.35" height="80" as="geometry" />
+          <mxGeometry x="850.04" y="439.87" width="173.35" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
