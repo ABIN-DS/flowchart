@@ -1,20 +1,78 @@
-<mxfile host="app.diagrams.net" modified="2024-03-06T07:55:00.718Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="_qZhF1tKozjqPMycP-NQ" version="23.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-02T08:28:02.808Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="pCok4eizXXxU1HwnYuDA" version="24.0.7" type="github">
   <diagram name="第 1 页" id="lJJsQC5AeHxFyqL9eE7w">
-    <mxGraphModel dx="954" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="954" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="MDflZ0rk2D2E5vkTJuB2-1" value="短链接系统" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210.00000000000045" y="100" width="360" height="480" as="geometry" />
+        <mxCell id="F8KAM2sR8ir6AolAIyTC-1" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="314" y="280" width="200" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="MDflZ0rk2D2E5vkTJuB2-2" value="短链接服务" style="swimlane;startSize=20;html=1;" vertex="1" parent="MDflZ0rk2D2E5vkTJuB2-1">
-          <mxGeometry y="20" width="120" height="460" as="geometry" />
+        <mxCell id="F8KAM2sR8ir6AolAIyTC-3" value="tokenId -&amp;gt; 新增次数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="F8KAM2sR8ir6AolAIyTC-1">
+          <mxGeometry x="19" y="30" width="164" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MDflZ0rk2D2E5vkTJuB2-3" value="Redis" style="swimlane;startSize=20;html=1;" vertex="1" parent="MDflZ0rk2D2E5vkTJuB2-1">
-          <mxGeometry x="120" y="20" width="120" height="460" as="geometry" />
+        <mxCell id="F8KAM2sR8ir6AolAIyTC-4" value="1 -&amp;gt; 2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="F8KAM2sR8ir6AolAIyTC-1">
+          <mxGeometry x="66" y="68" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MDflZ0rk2D2E5vkTJuB2-4" value="MySQL" style="swimlane;startSize=20;html=1;" vertex="1" parent="MDflZ0rk2D2E5vkTJuB2-1">
-          <mxGeometry x="240" y="20" width="120" height="460" as="geometry" />
+        <mxCell id="F8KAM2sR8ir6AolAIyTC-7" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;1 -&amp;gt; 2&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;2 -&amp;gt; 3&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;3 -&amp;gt; 6&lt;/span&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;…&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;1000 -&amp;gt; 1&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="F8KAM2sR8ir6AolAIyTC-1">
+          <mxGeometry x="19" y="60" width="164" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="F8KAM2sR8ir6AolAIyTC-2" value="&lt;b&gt;token点击次数&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="365" y="280" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F8KAM2sR8ir6AolAIyTC-8" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="314" y="510" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="F8KAM2sR8ir6AolAIyTC-9" value="configId -&amp;gt; 新增次数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="F8KAM2sR8ir6AolAIyTC-8">
+          <mxGeometry x="19" y="30" width="164" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F8KAM2sR8ir6AolAIyTC-10" value="1 -&amp;gt; 2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="F8KAM2sR8ir6AolAIyTC-8">
+          <mxGeometry x="66" y="68" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F8KAM2sR8ir6AolAIyTC-11" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;1 -&amp;gt; 2&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;2 -&amp;gt; 3&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;3 -&amp;gt; 6&lt;/span&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;…&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;1000 -&amp;gt; 1&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="F8KAM2sR8ir6AolAIyTC-8">
+          <mxGeometry x="19" y="60" width="164" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="F8KAM2sR8ir6AolAIyTC-12" value="&lt;b&gt;config点击次数&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="510" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F8KAM2sR8ir6AolAIyTC-13" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="230" width="270" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="F8KAM2sR8ir6AolAIyTC-14" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;待刷新数据结构（内存Map）&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="F8KAM2sR8ir6AolAIyTC-13">
+          <mxGeometry x="30" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F8KAM2sR8ir6AolAIyTC-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="F8KAM2sR8ir6AolAIyTC-15" target="F8KAM2sR8ir6AolAIyTC-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F8KAM2sR8ir6AolAIyTC-15" value="客户端" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="455" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F8KAM2sR8ir6AolAIyTC-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="F8KAM2sR8ir6AolAIyTC-18" target="F8KAM2sR8ir6AolAIyTC-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F8KAM2sR8ir6AolAIyTC-20" value="增加点击次数" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="F8KAM2sR8ir6AolAIyTC-19">
+          <mxGeometry x="0.0444" relative="1" as="geometry">
+            <mxPoint x="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F8KAM2sR8ir6AolAIyTC-18" value="点击短链接" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="455" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F8KAM2sR8ir6AolAIyTC-25" value="60秒 || 数据不空&amp;nbsp;" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.3333333333333333;arrowSize=0.2714285714285714;rotation=30;" vertex="1" parent="1">
+          <mxGeometry x="556.65" y="352.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F8KAM2sR8ir6AolAIyTC-31" value="数据容量到达&lt;div&gt;刷新值&lt;/div&gt;" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.3333333333333333;arrowSize=0.2714285714285714;rotation=-25;" vertex="1" parent="1">
+          <mxGeometry x="556.23" y="527.37" width="123.81" height="82.51" as="geometry" />
+        </mxCell>
+        <mxCell id="F8KAM2sR8ir6AolAIyTC-39" value="MySQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="412.5" width="80" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="F8KAM2sR8ir6AolAIyTC-40" value="&lt;div&gt;&lt;b&gt;结构刷新&lt;/b&gt;&lt;/div&gt;copy待刷新数据结构&lt;div&gt;创建新的Map结构&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="676.65" y="435" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="F8KAM2sR8ir6AolAIyTC-41" value="&lt;b&gt;分批次更新&lt;/b&gt;&lt;div&gt;分多个批次（每批100）&lt;/div&gt;&lt;div&gt;批量更新数据库&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="435" width="173.35" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
