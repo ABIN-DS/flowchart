@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-05T08:14:16.169Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="-gWtsxxg56MX1MCdTHcF" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-05T08:16:02.283Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="bWNmnJl60ZSSc-UfUEFz" version="24.4.13" type="github">
   <diagram name="第 1 页" id="ruObpeMu40LA795dVUHB">
     <mxGraphModel dx="1434" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,10 +22,10 @@
         <mxCell id="W8vYtDV4f-9OD0nS3D89-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="W8vYtDV4f-9OD0nS3D89-2" source="W8vYtDV4f-9OD0nS3D89-17" target="W8vYtDV4f-9OD0nS3D89-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="W8vYtDV4f-9OD0nS3D89-17" value="解析录音地址&amp;amp;插入下载任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="W8vYtDV4f-9OD0nS3D89-2">
+        <mxCell id="W8vYtDV4f-9OD0nS3D89-17" value="解析录音地址&amp;amp;插入下载任务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="W8vYtDV4f-9OD0nS3D89-2">
           <mxGeometry x="55" y="360" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="W8vYtDV4f-9OD0nS3D89-19" value="[job]扫描任务，并发执行下载&amp;amp;上传&lt;div&gt;- 按updateTime扫描任务&lt;/div&gt;&lt;div&gt;- 失败最多重试3次&amp;amp;报警&lt;/div&gt;&lt;div&gt;- 并发可配置，及时干预&lt;/div&gt;&lt;div&gt;- 带宽预警&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="W8vYtDV4f-9OD0nS3D89-2">
+        <mxCell id="W8vYtDV4f-9OD0nS3D89-19" value="[job]扫描任务，并发执行下载&amp;amp;上传&lt;div&gt;- 按updateTime扫描任务&lt;/div&gt;&lt;div&gt;- 失败最多重试3次&amp;amp;报警&lt;/div&gt;&lt;div&gt;- 并发可配置，及时干预&lt;/div&gt;&lt;div&gt;- 带宽预警&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="W8vYtDV4f-9OD0nS3D89-2">
           <mxGeometry x="42.5" y="500" width="145" height="100" as="geometry" />
         </mxCell>
         <mxCell id="W8vYtDV4f-9OD0nS3D89-3" value="IVR服务商" style="swimlane;startSize=20;html=1;" vertex="1" parent="W8vYtDV4f-9OD0nS3D89-1">
