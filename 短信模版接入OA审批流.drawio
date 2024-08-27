@@ -1,31 +1,33 @@
-<mxfile host="app.diagrams.net" modified="2024-08-27T09:20:32.200Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" etag="x5_6afKES6ZE9S2RPvaY" version="24.4.14" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-08-27T09:24:09.527Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" etag="ilbodNF6BmgBFyTUh03K" version="24.4.14" type="github" pages="2">
   <diagram name="创建模版" id="TAuhHNCcmVBmP9QnVMeC">
     <mxGraphModel dx="1434" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Ruto41B1nrn4rX4wE9EQ-1" value="创建模版" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="130" width="645" height="740" as="geometry" />
+          <mxGeometry x="240" y="130" width="645" height="970" as="geometry" />
         </mxCell>
         <mxCell id="Ruto41B1nrn4rX4wE9EQ-2" value="notif" style="swimlane;startSize=20;html=1;" vertex="1" parent="Ruto41B1nrn4rX4wE9EQ-1">
-          <mxGeometry y="20" width="300" height="720" as="geometry" />
+          <mxGeometry y="20" width="300" height="950" as="geometry" />
         </mxCell>
-        <mxCell id="Ruto41B1nrn4rX4wE9EQ-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Ruto41B1nrn4rX4wE9EQ-2" source="Ruto41B1nrn4rX4wE9EQ-7" target="Ruto41B1nrn4rX4wE9EQ-13">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Ruto41B1nrn4rX4wE9EQ-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Ruto41B1nrn4rX4wE9EQ-2" source="Ruto41B1nrn4rX4wE9EQ-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145" y="160" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Ruto41B1nrn4rX4wE9EQ-7" value="新建模版" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ruto41B1nrn4rX4wE9EQ-2">
           <mxGeometry x="80" y="40" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ruto41B1nrn4rX4wE9EQ-13" value="&lt;div&gt;创建模版记录&lt;br&gt;&lt;/div&gt;创建审批记录&lt;div&gt;插入操作记录&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ruto41B1nrn4rX4wE9EQ-2">
-          <mxGeometry x="80" y="170" width="130" height="60" as="geometry" />
+          <mxGeometry x="160" y="270" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ruto41B1nrn4rX4wE9EQ-29" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;插入操作记录&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="Ruto41B1nrn4rX4wE9EQ-2">
-          <mxGeometry x="165" y="429" width="120" height="60" as="geometry" />
+          <mxGeometry x="165" y="559" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ruto41B1nrn4rX4wE9EQ-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Ruto41B1nrn4rX4wE9EQ-2" source="Ruto41B1nrn4rX4wE9EQ-45" target="Ruto41B1nrn4rX4wE9EQ-29">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="225" y="349" />
+              <mxPoint x="225" y="479" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -43,15 +45,37 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Ruto41B1nrn4rX4wE9EQ-45" value="审批通过" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="Ruto41B1nrn4rX4wE9EQ-2">
-          <mxGeometry x="105" y="309" width="80" height="80" as="geometry" />
+          <mxGeometry x="105" y="439" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Ruto41B1nrn4rX4wE9EQ-50" value="更新模版状态&lt;div&gt;更新审批状态&lt;/div&gt;&lt;div&gt;插入操作记录&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="Ruto41B1nrn4rX4wE9EQ-2">
-          <mxGeometry x="15" y="429" width="120" height="60" as="geometry" />
+          <mxGeometry x="15" y="559" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ruto41B1nrn4rX4wE9EQ-59" value="更新模版状态&lt;div&gt;更新审批状态&lt;/div&gt;&lt;div&gt;插入操作记录&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="Ruto41B1nrn4rX4wE9EQ-2">
-          <mxGeometry x="85" y="600" width="120" height="60" as="geometry" />
+          <mxGeometry x="85" y="730" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ruto41B1nrn4rX4wE9EQ-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="Ruto41B1nrn4rX4wE9EQ-1" source="Ruto41B1nrn4rX4wE9EQ-7" target="Ruto41B1nrn4rX4wE9EQ-15">
+        <mxCell id="1mdTgg-duFGntwya3Iwy-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Ruto41B1nrn4rX4wE9EQ-2" source="1mdTgg-duFGntwya3Iwy-1" target="Ruto41B1nrn4rX4wE9EQ-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1mdTgg-duFGntwya3Iwy-3" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1mdTgg-duFGntwya3Iwy-2">
+          <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1mdTgg-duFGntwya3Iwy-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Ruto41B1nrn4rX4wE9EQ-2" source="1mdTgg-duFGntwya3Iwy-1" target="1mdTgg-duFGntwya3Iwy-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1mdTgg-duFGntwya3Iwy-6" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1mdTgg-duFGntwya3Iwy-5">
+          <mxGeometry x="0.0833" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1mdTgg-duFGntwya3Iwy-1" value="是否需要审批&lt;div&gt;（用途）&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Ruto41B1nrn4rX4wE9EQ-2">
+          <mxGeometry x="105" y="140" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1mdTgg-duFGntwya3Iwy-4" value="&lt;div&gt;创建模版记录&lt;br&gt;&lt;/div&gt;&lt;div&gt;插入操作记录&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ruto41B1nrn4rX4wE9EQ-2">
+          <mxGeometry x="10" y="270" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ruto41B1nrn4rX4wE9EQ-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="Ruto41B1nrn4rX4wE9EQ-1" source="Ruto41B1nrn4rX4wE9EQ-13" target="Ruto41B1nrn4rX4wE9EQ-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ruto41B1nrn4rX4wE9EQ-32" value="发起审批" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ruto41B1nrn4rX4wE9EQ-16">
@@ -60,25 +84,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Ruto41B1nrn4rX4wE9EQ-3" value="OA" style="swimlane;startSize=20;html=1;" vertex="1" parent="Ruto41B1nrn4rX4wE9EQ-1">
-          <mxGeometry x="300" y="20" width="345" height="720" as="geometry" />
+          <mxGeometry x="300" y="20" width="345" height="950" as="geometry" />
         </mxCell>
         <mxCell id="Ruto41B1nrn4rX4wE9EQ-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="Ruto41B1nrn4rX4wE9EQ-3" source="Ruto41B1nrn4rX4wE9EQ-15" target="Ruto41B1nrn4rX4wE9EQ-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ruto41B1nrn4rX4wE9EQ-15" value="发起审批" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ruto41B1nrn4rX4wE9EQ-3">
-          <mxGeometry x="97.5" y="40" width="132.5" height="60" as="geometry" />
+          <mxGeometry x="97.50000000000001" y="270" width="132.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ruto41B1nrn4rX4wE9EQ-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Ruto41B1nrn4rX4wE9EQ-3" source="Ruto41B1nrn4rX4wE9EQ-17" target="Ruto41B1nrn4rX4wE9EQ-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ruto41B1nrn4rX4wE9EQ-17" value="本人审批" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ruto41B1nrn4rX4wE9EQ-3">
-          <mxGeometry x="97.5" y="260" width="132.5" height="60" as="geometry" />
+          <mxGeometry x="97.5" y="390" width="132.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ruto41B1nrn4rX4wE9EQ-27" value="审批通过" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="Ruto41B1nrn4rX4wE9EQ-3">
-          <mxGeometry x="123.75" y="410" width="80" height="80" as="geometry" />
+          <mxGeometry x="123.75" y="540" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Ruto41B1nrn4rX4wE9EQ-21" value="法务审批" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ruto41B1nrn4rX4wE9EQ-3">
-          <mxGeometry x="100.63" y="600" width="126.25" height="60" as="geometry" />
+          <mxGeometry x="100.63" y="730" width="126.25" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ruto41B1nrn4rX4wE9EQ-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Ruto41B1nrn4rX4wE9EQ-3" source="Ruto41B1nrn4rX4wE9EQ-27" target="Ruto41B1nrn4rX4wE9EQ-21">
           <mxGeometry relative="1" as="geometry" />
@@ -88,7 +112,7 @@
             <mxPoint x="-3" y="5" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ruto41B1nrn4rX4wE9EQ-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="Ruto41B1nrn4rX4wE9EQ-1" source="Ruto41B1nrn4rX4wE9EQ-15" target="Ruto41B1nrn4rX4wE9EQ-7">
+        <mxCell id="Ruto41B1nrn4rX4wE9EQ-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="Ruto41B1nrn4rX4wE9EQ-1" source="Ruto41B1nrn4rX4wE9EQ-15" target="Ruto41B1nrn4rX4wE9EQ-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ruto41B1nrn4rX4wE9EQ-33" value="&lt;span style=&quot;color: rgb(0, 130, 0); font-family: Consolas, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace; font-size: 14px; text-align: left;&quot;&gt;流程单号&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ruto41B1nrn4rX4wE9EQ-31">
@@ -98,7 +122,7 @@
         </mxCell>
         <mxCell id="Ruto41B1nrn4rX4wE9EQ-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="Ruto41B1nrn4rX4wE9EQ-1" source="Ruto41B1nrn4rX4wE9EQ-17" target="Ruto41B1nrn4rX4wE9EQ-45">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="180" y="240" as="targetPoint" />
+            <mxPoint x="180" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Ruto41B1nrn4rX4wE9EQ-43" value="审批结果回调" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ruto41B1nrn4rX4wE9EQ-42">
@@ -108,7 +132,7 @@
         </mxCell>
         <mxCell id="Ruto41B1nrn4rX4wE9EQ-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="Ruto41B1nrn4rX4wE9EQ-1" source="Ruto41B1nrn4rX4wE9EQ-21" target="Ruto41B1nrn4rX4wE9EQ-59">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="135" y="700" as="targetPoint" />
+            <mxPoint x="135" y="830" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Ruto41B1nrn4rX4wE9EQ-61" value="审批结果回调" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ruto41B1nrn4rX4wE9EQ-60">
@@ -128,13 +152,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ruto41B1nrn4rX4wE9EQ-19" value="运营" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="907.5" y="410" width="30" height="60" as="geometry" />
+          <mxGeometry x="907.5" y="540" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ruto41B1nrn4rX4wE9EQ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ruto41B1nrn4rX4wE9EQ-23" target="Ruto41B1nrn4rX4wE9EQ-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ruto41B1nrn4rX4wE9EQ-23" value="法务" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="907.5" y="750" width="30" height="60" as="geometry" />
+          <mxGeometry x="907.5" y="880" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -144,7 +168,7 @@
       <root>
         <mxCell id="LCiAExyzOLAW_GTpdMLg-0" />
         <mxCell id="LCiAExyzOLAW_GTpdMLg-1" parent="LCiAExyzOLAW_GTpdMLg-0" />
-        <mxCell id="LCiAExyzOLAW_GTpdMLg-2" value="创建模版" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="LCiAExyzOLAW_GTpdMLg-1">
+        <mxCell id="LCiAExyzOLAW_GTpdMLg-2" value="修改模版" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="LCiAExyzOLAW_GTpdMLg-1">
           <mxGeometry x="240" y="130" width="645" height="740" as="geometry" />
         </mxCell>
         <mxCell id="LCiAExyzOLAW_GTpdMLg-3" value="notif" style="swimlane;startSize=20;html=1;" vertex="1" parent="LCiAExyzOLAW_GTpdMLg-2">
