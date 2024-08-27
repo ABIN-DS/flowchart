@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-08-27T09:31:20.836Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" etag="JXzIwew9HnOapn3f1XnO" version="24.4.14" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-08-27T09:53:15.110Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" etag="weBB-tJtAv373SyRFNxx" version="24.4.14" type="github" pages="4">
   <diagram name="创建模版" id="TAuhHNCcmVBmP9QnVMeC">
     <mxGraphModel dx="1434" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -364,6 +364,74 @@
         </mxCell>
         <mxCell id="CSouxxwmeNtS67AkoexG-15" value="recall" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ju0dotLRacyWv-4AiZUn-1">
           <mxGeometry x="60" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="wurhrNnPz4Z2MwgokGBT" name="核心状态机">
+    <mxGraphModel dx="1434" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NyF-_BsfDniEj0P78L95-36" value="审批记录状态机" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="134" y="260" width="456" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="NyF-_BsfDniEj0P78L95-25" value="短信模版状态机" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="134" y="100" width="456" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="NyF-_BsfDniEj0P78L95-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NyF-_BsfDniEj0P78L95-21" target="NyF-_BsfDniEj0P78L95-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NyF-_BsfDniEj0P78L95-24" value="无需审批&lt;div&gt;OA终审通过&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NyF-_BsfDniEj0P78L95-23">
+          <mxGeometry x="-0.1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NyF-_BsfDniEj0P78L95-21" value="未生效" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NyF-_BsfDniEj0P78L95-22" value="已生效" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NyF-_BsfDniEj0P78L95-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NyF-_BsfDniEj0P78L95-26" target="NyF-_BsfDniEj0P78L95-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NyF-_BsfDniEj0P78L95-29" value="审批拒绝" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NyF-_BsfDniEj0P78L95-28">
+          <mxGeometry x="-0.0615" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NyF-_BsfDniEj0P78L95-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NyF-_BsfDniEj0P78L95-26" target="NyF-_BsfDniEj0P78L95-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NyF-_BsfDniEj0P78L95-32" value="终审通过" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NyF-_BsfDniEj0P78L95-31">
+          <mxGeometry x="0.16" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NyF-_BsfDniEj0P78L95-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NyF-_BsfDniEj0P78L95-26" target="NyF-_BsfDniEj0P78L95-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NyF-_BsfDniEj0P78L95-35" value="审批撤回" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NyF-_BsfDniEj0P78L95-34">
+          <mxGeometry x="0.3231" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NyF-_BsfDniEj0P78L95-26" value="审批中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NyF-_BsfDniEj0P78L95-27" value="审批拒绝" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NyF-_BsfDniEj0P78L95-30" value="审批通过" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NyF-_BsfDniEj0P78L95-33" value="审批撤回" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="300" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
