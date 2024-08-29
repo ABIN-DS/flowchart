@@ -110,31 +110,25 @@
           <mxGeometry x="120" y="190" width="170" height="90" as="geometry" />
         </mxCell>
         <mxCell id="2ANFnI_Qd6PUBiNrqqMC-4" value="service" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="300" y="190" width="250" height="90" as="geometry" />
+          <mxGeometry x="300" y="190" width="370" height="90" as="geometry" />
         </mxCell>
         <mxCell id="2ANFnI_Qd6PUBiNrqqMC-5" value="admin（待实现）" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="560" y="190" width="580" height="90" as="geometry" />
+          <mxGeometry x="680" y="190" width="460" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="2ANFnI_Qd6PUBiNrqqMC-6" value="短链接重定向" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;labelBorderColor=none;" parent="1" vertex="1">
+        <mxCell id="2ANFnI_Qd6PUBiNrqqMC-6" value="友盟事件回调" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;labelBorderColor=none;" parent="1" vertex="1">
           <mxGeometry x="140" y="230" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2ANFnI_Qd6PUBiNrqqMC-7" value="单个生成短链接" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCFF;" parent="1" vertex="1">
+        <mxCell id="2ANFnI_Qd6PUBiNrqqMC-7" value="创建监听项目" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCFF;" parent="1" vertex="1">
           <mxGeometry x="314" y="230" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2ANFnI_Qd6PUBiNrqqMC-8" value="批量生成短链接" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCFF;" parent="1" vertex="1">
+        <mxCell id="2ANFnI_Qd6PUBiNrqqMC-8" value="注册设备" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCFF;" parent="1" vertex="1">
           <mxGeometry x="430" y="230" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2ANFnI_Qd6PUBiNrqqMC-9" value="单个生成短链接" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCE6;" parent="1" vertex="1">
-          <mxGeometry x="570" y="230" width="100" height="30" as="geometry" />
+        <mxCell id="2ANFnI_Qd6PUBiNrqqMC-10" value="监听项目管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCE6;" parent="1" vertex="1">
+          <mxGeometry x="710" y="230" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2ANFnI_Qd6PUBiNrqqMC-10" value="批量生成短链接" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCE6;" parent="1" vertex="1">
-          <mxGeometry x="690" y="230" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="2ANFnI_Qd6PUBiNrqqMC-11" value="查询配置列表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCE6;" parent="1" vertex="1">
-          <mxGeometry x="815" y="230" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="2ANFnI_Qd6PUBiNrqqMC-12" value="单个短链接信息&lt;span style=&quot;background-color: initial;&quot;&gt;查看&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCE6;" parent="1" vertex="1">
-          <mxGeometry x="940" y="230" width="160" height="30" as="geometry" />
+        <mxCell id="2ANFnI_Qd6PUBiNrqqMC-11" value="监听任务管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCE6;" parent="1" vertex="1">
+          <mxGeometry x="850" y="230" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2ANFnI_Qd6PUBiNrqqMC-13" value="common" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="120" y="680" width="1020" height="80" as="geometry" />
@@ -145,7 +139,7 @@
         <mxCell id="2ANFnI_Qd6PUBiNrqqMC-15" value="Util相关" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B9E0A5;" parent="1" vertex="1">
           <mxGeometry x="720" y="710" width="360" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2ANFnI_Qd6PUBiNrqqMC-16" value="&lt;div&gt;短链接管理&lt;/div&gt;SUrlService" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#A9C4EB;" parent="1" vertex="1">
+        <mxCell id="2ANFnI_Qd6PUBiNrqqMC-16" value="监听项目相关&lt;div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#A9C4EB;" parent="1" vertex="1">
           <mxGeometry x="170" y="380" width="400" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2ANFnI_Qd6PUBiNrqqMC-17" value="&lt;div&gt;点击次数更新&lt;/div&gt;ClickTimesFlusher" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#A9C4EB;" parent="1" vertex="1">
@@ -232,6 +226,12 @@
         </mxCell>
         <mxCell id="2ANFnI_Qd6PUBiNrqqMC-46" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="1180" y="680" width="20" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="V0bNTNqN08mJIJIuwhnt-1" value="统计信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCE6;" vertex="1" parent="1">
+          <mxGeometry x="1005" y="230" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V0bNTNqN08mJIJIuwhnt-2" value="注销设备" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCFF;" vertex="1" parent="1">
+          <mxGeometry x="550" y="230" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
