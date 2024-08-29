@@ -157,8 +157,8 @@
         <mxCell id="2ANFnI_Qd6PUBiNrqqMC-22" value="Redis&lt;div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#A9C4EB;" parent="1" vertex="1">
           <mxGeometry x="500" y="559.73" width="240" height="130.27" as="geometry" />
         </mxCell>
-        <mxCell id="2ANFnI_Qd6PUBiNrqqMC-24" value="TaskInfo" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#A9C4EB;" parent="1" vertex="1">
-          <mxGeometry x="510" y="589.73" width="90" height="30" as="geometry" />
+        <mxCell id="2ANFnI_Qd6PUBiNrqqMC-24" value="ProjectAndTaskInfo" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#A9C4EB;" parent="1" vertex="1">
+          <mxGeometry x="540" y="589.73" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2ANFnI_Qd6PUBiNrqqMC-25" value="Caffeine&lt;div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#A9C4EB;" parent="1" vertex="1">
           <mxGeometry x="750" y="559.73" width="240" height="130.27" as="geometry" />
@@ -221,9 +221,6 @@
         <mxCell id="V0bNTNqN08mJIJIuwhnt-5" value="event_listen_project_task_device" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#A9C4EB;" vertex="1" parent="1">
           <mxGeometry x="155" y="640" width="185" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="V0bNTNqN08mJIJIuwhnt-6" value="TaskInfo" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#A9C4EB;" vertex="1" parent="1">
-          <mxGeometry x="760" y="589.73" width="90" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="V0bNTNqN08mJIJIuwhnt-7" value="scheduler" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="850" y="190" width="290" height="90" as="geometry" />
         </mxCell>
@@ -235,6 +232,9 @@
         </mxCell>
         <mxCell id="V0bNTNqN08mJIJIuwhnt-10" value="设备注销" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCE6;" vertex="1" parent="1">
           <mxGeometry x="1045" y="230" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V0bNTNqN08mJIJIuwhnt-12" value="ProjectAndTaskInfo" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#A9C4EB;" vertex="1" parent="1">
+          <mxGeometry x="787.5" y="589.73" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
